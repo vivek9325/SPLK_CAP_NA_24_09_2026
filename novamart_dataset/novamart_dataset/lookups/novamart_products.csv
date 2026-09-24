@@ -1,0 +1,21 @@
+product_id,product_name,category,unit_price,supplier
+NM-1001,Aurora 5G Smartphone 128GB,Electronics,18999,Zenlite Devices
+NM-1002,PulseBeat Wireless Earbuds,Electronics,2499,Zenlite Devices
+NM-1003,VoltMax 20000mAh Power Bank,Electronics,1799,Kraft Power
+NM-1004,ClearView 43in 4K Smart TV,Electronics,27999,Vistara Displays
+NM-1005,StrideFit Smartwatch,Electronics,4999,Zenlite Devices
+NM-2001,Men's Slim Fit Denim Jeans,Fashion,1499,Loom & Thread
+NM-2002,Women's Cotton Kurta Set,Fashion,1899,Loom & Thread
+NM-2003,Classic Leather Sneakers,Fashion,2999,Stepwell
+NM-2004,Unisex Rain Jacket,Fashion,2299,Loom & Thread
+NM-3001,Non-Stick Cookware Set 5pc,Home & Kitchen,3499,HearthHome
+NM-3002,Digital Air Fryer 4.2L,Home & Kitchen,5999,HearthHome
+NM-3003,Cotton Bedsheet Double,Home & Kitchen,1199,SoftNest
+NM-3004,Stainless Steel Water Bottle,Home & Kitchen,599,HearthHome
+NM-4001,The Data Engineer's Handbook,Books,899,Inkwell Press
+NM-4002,Mystery at Malabar Hill,Books,399,Inkwell Press
+NM-5001,Pro Yoga Mat 6mm,Sports,1299,ActivEdge
+NM-5002,Adjustable Dumbbell 10kg,Sports,3999,ActivEdge
+NM-5003,English Willow Cricket Bat,Sports,6499,ActivEdge
+NM-6001,Herbal Face Wash 150ml,Beauty,349,Glow Botanics
+NM-6002,Vitamin C Serum 30ml,Beauty,799,Glow Botanics
