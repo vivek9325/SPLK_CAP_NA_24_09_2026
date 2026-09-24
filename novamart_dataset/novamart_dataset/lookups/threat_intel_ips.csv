@@ -1,6 +1,0 @@
-ip,threat_category,confidence,first_seen
-203.0.113.77,ssh_bruteforce,high,2026-08-30
-192.0.2.66,web_vuln_scanner,high,2026-07-12
-198.51.100.23,content_scraper,medium,2026-09-01
-198.51.100.150,botnet_c2,high,2026-06-02
-192.0.2.201,tor_exit_node,low,2026-05-19
