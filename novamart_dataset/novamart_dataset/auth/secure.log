@@ -1,0 +1,1082 @@
+Sep 14 00:32:34 bastion01 sshd[20245]: Failed password for root from 122.201.235.52 port 51302 ssh2
+Sep 14 04:20:21 bastion01 sshd[20280]: Failed password for root from 103.224.59.153 port 32206 ssh2
+Sep 14 05:32:10 bastion01 sshd[20252]: Failed password for root from 49.83.113.164 port 53662 ssh2
+Sep 14 08:33:24 bastion01 sshd[20201]: Accepted publickey for rahul from 10.20.1.44 port 63257 ssh2: RSA SHA256:F4JWFH0EJ63HGYLHV2K1AA42
+Sep 14 08:33:24 bastion01 sshd[20201]: pam_unix(sshd:session): session opened for user rahul by (uid=0)
+Sep 14 08:54:02 bastion01 sshd[20201]: pam_unix(sshd:session): session closed for user rahul
+Sep 14 09:52:57 bastion01 sshd[20026]: Accepted publickey for devops from 10.20.1.22 port 54719 ssh2: RSA SHA256:5DCT9QLW4C91G6X81126X2MW
+Sep 14 09:52:57 bastion01 sshd[20026]: pam_unix(sshd:session): session opened for user devops by (uid=0)
+Sep 14 09:57:33 bastion01 sshd[20026]: pam_unix(sshd:session): session closed for user devops
+Sep 14 10:17:25 bastion01 sshd[20174]: Accepted publickey for ananya from 10.20.1.31 port 63341 ssh2: RSA SHA256:217SCNA0TM1BDV4ZKDRQAGE8
+Sep 14 10:17:25 bastion01 sshd[20174]: pam_unix(sshd:session): session opened for user ananya by (uid=0)
+Sep 14 10:18:08 bastion01 sudo:   ananya : TTY=pts/4 ; PWD=/home/ananya ; USER=root ; COMMAND=/usr/bin/apt-get update
+Sep 14 10:20:27 bastion01 sudo:   ananya : TTY=pts/0 ; PWD=/home/ananya ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx
+Sep 14 10:21:23 bastion01 sudo:   ananya : TTY=pts/1 ; PWD=/home/ananya ; USER=root ; COMMAND=/usr/bin/apt-get update
+Sep 14 10:25:42 bastion01 sshd[20174]: pam_unix(sshd:session): session closed for user ananya
+Sep 14 12:15:13 bastion01 sshd[20266]: Failed password for root from 103.2.9.23 port 41794 ssh2
+Sep 14 12:51:05 bastion01 sshd[20169]: Accepted publickey for rahul from 10.20.1.44 port 46173 ssh2: RSA SHA256:C2VZPDQ0FPRHLP6Y6LYXRH0Z
+Sep 14 12:51:05 bastion01 sshd[20169]: pam_unix(sshd:session): session opened for user rahul by (uid=0)
+Sep 14 12:54:05 bastion01 sudo:   rahul : TTY=pts/1 ; PWD=/home/rahul ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx
+Sep 14 12:59:40 bastion01 sudo:   rahul : TTY=pts/2 ; PWD=/home/rahul ; USER=root ; COMMAND=/usr/bin/docker ps
+Sep 14 13:04:42 bastion01 sudo:   rahul : TTY=pts/2 ; PWD=/home/rahul ; USER=root ; COMMAND=/usr/bin/tail -n 200 /var/log/novamart/order_service.log
+Sep 14 13:17:03 bastion01 sshd[20169]: pam_unix(sshd:session): session closed for user rahul
+Sep 14 14:54:44 bastion01 sshd[20273]: Failed password for root from 223.246.60.30 port 44938 ssh2
+Sep 14 15:49:34 bastion01 sshd[20123]: Accepted publickey for deploy from 10.20.1.15 port 54422 ssh2: RSA SHA256:VQCYEGZV51PXMDAKEL84NB8J
+Sep 14 15:49:34 bastion01 sshd[20123]: pam_unix(sshd:session): session opened for user deploy by (uid=0)
+Sep 14 16:19:27 bastion01 sshd[20123]: pam_unix(sshd:session): session closed for user deploy
+Sep 14 16:40:31 bastion01 sshd[20259]: Failed password for root from 117.46.36.196 port 62321 ssh2
+Sep 14 16:50:19 bastion01 sshd[20051]: Accepted publickey for rahul from 10.20.1.44 port 57718 ssh2: RSA SHA256:ASEF6MJ4TWX210W36XNTRAHC
+Sep 14 16:50:19 bastion01 sshd[20051]: pam_unix(sshd:session): session opened for user rahul by (uid=0)
+Sep 14 16:52:50 bastion01 sudo:   rahul : TTY=pts/3 ; PWD=/home/rahul ; USER=root ; COMMAND=/usr/bin/docker ps
+Sep 14 16:55:49 bastion01 sudo:   rahul : TTY=pts/0 ; PWD=/home/rahul ; USER=root ; COMMAND=/usr/bin/systemctl status order-service
+Sep 14 16:57:11 bastion01 sudo:   rahul : TTY=pts/4 ; PWD=/home/rahul ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx
+Sep 14 17:00:58 bastion01 sshd[20089]: Accepted publickey for ananya from 10.20.1.31 port 54094 ssh2: RSA SHA256:MWNJFPFY6R9P51QKMMD2L42H
+Sep 14 17:00:58 bastion01 sshd[20089]: pam_unix(sshd:session): session opened for user ananya by (uid=0)
+Sep 14 17:06:29 bastion01 sudo:   ananya : TTY=pts/2 ; PWD=/home/ananya ; USER=root ; COMMAND=/usr/bin/docker ps
+Sep 14 17:11:14 bastion01 sshd[20089]: pam_unix(sshd:session): session closed for user ananya
+Sep 14 17:23:14 bastion01 sshd[20051]: pam_unix(sshd:session): session closed for user rahul
+Sep 14 19:47:33 bastion01 sshd[20188]: Accepted publickey for devops from 10.20.1.22 port 59683 ssh2: RSA SHA256:F2EY8JMT5TJX6EZ8X0HFZYYW
+Sep 14 19:47:33 bastion01 sshd[20188]: pam_unix(sshd:session): session opened for user devops by (uid=0)
+Sep 14 19:51:13 bastion01 sudo:   devops : TTY=pts/2 ; PWD=/home/devops ; USER=root ; COMMAND=/usr/bin/apt-get update
+Sep 14 19:53:46 bastion01 sudo:   devops : TTY=pts/0 ; PWD=/home/devops ; USER=root ; COMMAND=/usr/bin/apt-get update
+Sep 14 20:24:50 bastion01 sshd[20188]: pam_unix(sshd:session): session closed for user devops
+Sep 14 20:38:57 bastion01 sshd[20238]: Accepted publickey for devops from 10.20.1.22 port 48055 ssh2: RSA SHA256:A5SB6NABR01KDD5CD70L1A67
+Sep 14 20:38:57 bastion01 sshd[20238]: pam_unix(sshd:session): session opened for user devops by (uid=0)
+Sep 14 20:44:30 bastion01 sudo:   devops : TTY=pts/1 ; PWD=/home/devops ; USER=root ; COMMAND=/usr/bin/apt-get update
+Sep 14 20:48:23 bastion01 sshd[20238]: pam_unix(sshd:session): session closed for user devops
+Sep 14 21:04:19 bastion01 sshd[20146]: Accepted publickey for ananya from 10.20.1.31 port 43857 ssh2: RSA SHA256:KFQZCCAXFEHGR4KAX7PBA2YW
+Sep 14 21:04:19 bastion01 sshd[20146]: pam_unix(sshd:session): session opened for user ananya by (uid=0)
+Sep 14 21:08:41 bastion01 sudo:   ananya : TTY=pts/2 ; PWD=/home/ananya ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx
+Sep 14 21:14:19 bastion01 sudo:   ananya : TTY=pts/4 ; PWD=/home/ananya ; USER=root ; COMMAND=/usr/bin/systemctl status order-service
+Sep 14 21:17:12 bastion01 sudo:   ananya : TTY=pts/2 ; PWD=/home/ananya ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx
+Sep 14 21:24:50 bastion01 sshd[20101]: Failed password for deploy from 10.20.1.15 port 64620 ssh2
+Sep 14 21:24:59 bastion01 sshd[20101]: Accepted publickey for deploy from 10.20.1.15 port 51240 ssh2: RSA SHA256:B6Q73ZL1CRD0N3V2RWVKXNVN
+Sep 14 21:24:59 bastion01 sshd[20101]: pam_unix(sshd:session): session opened for user deploy by (uid=0)
+Sep 14 21:31:23 bastion01 sudo:   deploy : TTY=pts/1 ; PWD=/home/deploy ; USER=root ; COMMAND=/usr/bin/docker ps
+Sep 14 21:38:21 bastion01 sshd[20146]: pam_unix(sshd:session): session closed for user ananya
+Sep 14 21:48:31 bastion01 sshd[20101]: pam_unix(sshd:session): session closed for user deploy
+Sep 15 01:09:58 bastion01 sshd[20533]: Failed password for root from 182.240.92.36 port 37531 ssh2
+Sep 15 07:23:02 bastion01 sshd[20526]: Failed password for root from 182.140.185.51 port 53977 ssh2
+Sep 15 07:44:26 bastion01 sshd[20554]: Failed password for root from 117.139.106.129 port 50362 ssh2
+Sep 15 08:10:11 bastion01 sshd[20568]: Failed password for root from 103.40.8.112 port 32867 ssh2
+Sep 15 08:34:19 bastion01 sshd[20505]: Accepted publickey for devops from 10.20.1.22 port 60858 ssh2: RSA SHA256:FSNRT231Z5B9QB37YPKJQ1DH
+Sep 15 08:34:19 bastion01 sshd[20505]: pam_unix(sshd:session): session opened for user devops by (uid=0)
+Sep 15 08:39:58 bastion01 sudo:   devops : TTY=pts/1 ; PWD=/home/devops ; USER=root ; COMMAND=/usr/bin/apt-get update
+Sep 15 08:41:34 bastion01 sudo:   devops : TTY=pts/2 ; PWD=/home/devops ; USER=root ; COMMAND=/usr/bin/apt-get update
+Sep 15 08:46:48 bastion01 sudo:   devops : TTY=pts/3 ; PWD=/home/devops ; USER=root ; COMMAND=/usr/bin/apt-get update
+Sep 15 09:00:07 bastion01 sshd[20505]: pam_unix(sshd:session): session closed for user devops
+Sep 15 09:40:01 bastion01 sshd[20461]: Accepted publickey for rahul from 10.20.1.44 port 46837 ssh2: RSA SHA256:GPQ05KRTMDEDHNBKQXFZ5AZD
+Sep 15 09:40:01 bastion01 sshd[20461]: pam_unix(sshd:session): session opened for user rahul by (uid=0)
+Sep 15 09:42:14 bastion01 sudo:   rahul : TTY=pts/1 ; PWD=/home/rahul ; USER=root ; COMMAND=/usr/bin/systemctl status order-service
+Sep 15 10:16:12 bastion01 sshd[20461]: pam_unix(sshd:session): session closed for user rahul
+Sep 15 10:18:10 bastion01 sshd[20519]: Accepted publickey for deploy from 10.20.1.15 port 46896 ssh2: RSA SHA256:1Z2W3XG6C03R008A80AHALCR
+Sep 15 10:18:10 bastion01 sshd[20519]: pam_unix(sshd:session): session opened for user deploy by (uid=0)
+Sep 15 10:18:35 bastion01 sudo:   deploy : TTY=pts/0 ; PWD=/home/deploy ; USER=root ; COMMAND=/usr/bin/systemctl status order-service
+Sep 15 10:21:55 bastion01 sudo:   deploy : TTY=pts/4 ; PWD=/home/deploy ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx
+Sep 15 10:29:37 bastion01 sshd[20519]: pam_unix(sshd:session): session closed for user deploy
+Sep 15 13:02:39 bastion01 sshd[20410]: Failed password for deploy from 10.20.1.15 port 44020 ssh2
+Sep 15 13:02:44 bastion01 sshd[20410]: Accepted publickey for deploy from 10.20.1.15 port 60550 ssh2: RSA SHA256:P3ANNTQ6DDPHS2TC8VM067VW
+Sep 15 13:02:44 bastion01 sshd[20410]: pam_unix(sshd:session): session opened for user deploy by (uid=0)
+Sep 15 13:03:36 bastion01 sudo:   deploy : TTY=pts/2 ; PWD=/home/deploy ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx
+Sep 15 13:09:56 bastion01 sudo:   deploy : TTY=pts/3 ; PWD=/home/deploy ; USER=root ; COMMAND=/usr/bin/tail -n 200 /var/log/novamart/order_service.log
+Sep 15 13:10:21 bastion01 sudo:   deploy : TTY=pts/2 ; PWD=/home/deploy ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx
+Sep 15 13:11:29 bastion01 sshd[20377]: Accepted publickey for deploy from 10.20.1.15 port 45800 ssh2: RSA SHA256:F1GFHYWX8XW3LVTFPP1HN0HY
+Sep 15 13:11:29 bastion01 sshd[20377]: pam_unix(sshd:session): session opened for user deploy by (uid=0)
+Sep 15 13:29:32 bastion01 sshd[20377]: pam_unix(sshd:session): session closed for user deploy
+Sep 15 13:33:49 bastion01 sshd[20327]: Accepted publickey for devops from 10.20.1.22 port 56048 ssh2: RSA SHA256:MQ1AS5ATD1MNQPQQV239S6C7
+Sep 15 13:33:49 bastion01 sshd[20327]: pam_unix(sshd:session): session opened for user devops by (uid=0)
+Sep 15 13:37:25 bastion01 sshd[20410]: pam_unix(sshd:session): session closed for user deploy
+Sep 15 13:38:19 bastion01 sudo:   devops : TTY=pts/0 ; PWD=/home/devops ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx
+Sep 15 13:39:08 bastion01 sudo:   devops : TTY=pts/3 ; PWD=/home/devops ; USER=root ; COMMAND=/usr/bin/tail -n 200 /var/log/novamart/order_service.log
+Sep 15 13:44:48 bastion01 sudo:   devops : TTY=pts/2 ; PWD=/home/devops ; USER=root ; COMMAND=/usr/bin/apt-get update
+Sep 15 14:05:54 bastion01 sshd[20327]: pam_unix(sshd:session): session closed for user devops
+Sep 15 14:53:46 bastion01 sshd[20449]: Accepted publickey for deploy from 10.20.1.15 port 63331 ssh2: RSA SHA256:LPF0QH69N61T1R76BMRXDCT1
+Sep 15 14:53:46 bastion01 sshd[20449]: pam_unix(sshd:session): session opened for user deploy by (uid=0)
+Sep 15 14:54:06 bastion01 sudo:   deploy : TTY=pts/2 ; PWD=/home/deploy ; USER=root ; COMMAND=/usr/bin/apt-get update
+Sep 15 15:12:37 bastion01 sshd[20439]: Accepted publickey for rahul from 10.20.1.44 port 47442 ssh2: RSA SHA256:JF294M3WJ3VZZ4DQDEEHH0XH
+Sep 15 15:12:37 bastion01 sshd[20439]: pam_unix(sshd:session): session opened for user rahul by (uid=0)
+Sep 15 15:17:00 bastion01 sudo:   rahul : TTY=pts/3 ; PWD=/home/rahul ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx
+Sep 15 15:19:09 bastion01 sshd[20439]: pam_unix(sshd:session): session closed for user rahul
+Sep 15 15:25:42 bastion01 sshd[20449]: pam_unix(sshd:session): session closed for user deploy
+Sep 15 15:30:14 bastion01 sshd[20339]: Accepted publickey for deploy from 10.20.1.15 port 60030 ssh2: RSA SHA256:6VW79P17HKD2S4DKM30PFWZW
+Sep 15 15:30:14 bastion01 sshd[20339]: pam_unix(sshd:session): session opened for user deploy by (uid=0)
+Sep 15 15:43:33 bastion01 sshd[20339]: pam_unix(sshd:session): session closed for user deploy
+Sep 15 17:37:07 bastion01 sshd[20471]: Accepted publickey for devops from 10.20.1.22 port 64843 ssh2: RSA SHA256:UPY8RE616NN17W38LCZLYY2Q
+Sep 15 17:37:07 bastion01 sshd[20471]: pam_unix(sshd:session): session opened for user devops by (uid=0)
+Sep 15 17:41:20 bastion01 sudo:   devops : TTY=pts/4 ; PWD=/home/devops ; USER=root ; COMMAND=/usr/bin/systemctl status order-service
+Sep 15 17:58:10 bastion01 sshd[20471]: pam_unix(sshd:session): session closed for user devops
+Sep 15 18:57:19 bastion01 sshd[20318]: Failed password for rahul from 10.20.1.44 port 50505 ssh2
+Sep 15 18:57:23 bastion01 sshd[20318]: Accepted publickey for rahul from 10.20.1.44 port 49814 ssh2: RSA SHA256:0SBK5YPPF1GKFAMXVB8XVVKM
+Sep 15 18:57:23 bastion01 sshd[20318]: pam_unix(sshd:session): session opened for user rahul by (uid=0)
+Sep 15 19:03:22 bastion01 sudo:   rahul : TTY=pts/3 ; PWD=/home/rahul ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx
+Sep 15 19:08:25 bastion01 sudo:   rahul : TTY=pts/3 ; PWD=/home/rahul ; USER=root ; COMMAND=/usr/bin/journalctl -u payment-service --since today
+Sep 15 19:16:27 bastion01 sshd[20318]: pam_unix(sshd:session): session closed for user rahul
+Sep 15 21:33:00 bastion01 sshd[20561]: Failed password for root from 157.156.107.11 port 49016 ssh2
+Sep 15 22:13:38 bastion01 sshd[20540]: Failed password for root from 182.131.48.164 port 40221 ssh2
+Sep 15 23:06:29 bastion01 sshd[20575]: Failed password for root from 122.123.15.167 port 52975 ssh2
+Sep 15 23:08:07 bastion01 sshd[20547]: Failed password for root from 122.231.44.69 port 44894 ssh2
+Sep 16 06:42:19 bastion01 sshd[20840]: Failed password for root from 106.208.24.147 port 40328 ssh2
+Sep 16 11:00:00 bastion01 sshd[20660]: Accepted publickey for rahul from 10.20.1.44 port 47120 ssh2: RSA SHA256:ZBLHD2WAAJ723ZV23XH7UT6K
+Sep 16 11:00:00 bastion01 sshd[20660]: pam_unix(sshd:session): session opened for user rahul by (uid=0)
+Sep 16 11:03:03 bastion01 sudo:   rahul : TTY=pts/2 ; PWD=/home/rahul ; USER=root ; COMMAND=/usr/bin/tail -n 200 /var/log/novamart/order_service.log
+Sep 16 11:06:30 bastion01 sudo:   rahul : TTY=pts/3 ; PWD=/home/rahul ; USER=root ; COMMAND=/usr/bin/docker ps
+Sep 16 11:08:01 bastion01 sudo:   rahul : TTY=pts/4 ; PWD=/home/rahul ; USER=root ; COMMAND=/usr/bin/systemctl status order-service
+Sep 16 11:15:09 bastion01 sshd[20582]: Accepted publickey for rahul from 10.20.1.44 port 50108 ssh2: RSA SHA256:WQ3ACF8LH2U2D6VW0DMJZM91
+Sep 16 11:15:09 bastion01 sshd[20582]: pam_unix(sshd:session): session opened for user rahul by (uid=0)
+Sep 16 11:15:21 bastion01 sshd[20596]: Failed password for ananya from 10.20.1.31 port 51690 ssh2
+Sep 16 11:15:31 bastion01 sshd[20596]: Accepted publickey for ananya from 10.20.1.31 port 41280 ssh2: RSA SHA256:5B68WCGU66EGBTDHDPG9EZ1J
+Sep 16 11:15:31 bastion01 sshd[20596]: pam_unix(sshd:session): session opened for user ananya by (uid=0)
+Sep 16 11:16:09 bastion01 sshd[20660]: pam_unix(sshd:session): session closed for user rahul
+Sep 16 11:16:17 bastion01 sudo:   rahul : TTY=pts/0 ; PWD=/home/rahul ; USER=root ; COMMAND=/usr/bin/tail -n 200 /var/log/novamart/order_service.log
+Sep 16 11:19:50 bastion01 sshd[20582]: pam_unix(sshd:session): session closed for user rahul
+Sep 16 11:30:42 bastion01 sshd[20596]: pam_unix(sshd:session): session closed for user ananya
+Sep 16 12:14:29 bastion01 sshd[20861]: Failed password for root from 182.233.47.126 port 63121 ssh2
+Sep 16 12:17:13 bastion01 sshd[20708]: Failed password for ananya from 10.20.1.31 port 64184 ssh2
+Sep 16 12:17:28 bastion01 sshd[20708]: Accepted publickey for ananya from 10.20.1.31 port 52687 ssh2: RSA SHA256:6TFXPV1BTGCPFCS51GYHK2W0
+Sep 16 12:17:28 bastion01 sshd[20708]: pam_unix(sshd:session): session opened for user ananya by (uid=0)
+Sep 16 12:19:48 bastion01 sudo:   ananya : TTY=pts/2 ; PWD=/home/ananya ; USER=root ; COMMAND=/usr/bin/journalctl -u payment-service --since today
+Sep 16 12:24:42 bastion01 sudo:   ananya : TTY=pts/3 ; PWD=/home/ananya ; USER=root ; COMMAND=/usr/bin/docker ps
+Sep 16 13:01:57 bastion01 sshd[20708]: pam_unix(sshd:session): session closed for user ananya
+Sep 16 13:56:22 bastion01 sshd[20795]: Accepted publickey for ananya from 10.20.1.31 port 48255 ssh2: RSA SHA256:MRDP1FZMYCEYG0XGSW1C95T6
+Sep 16 13:56:22 bastion01 sshd[20795]: pam_unix(sshd:session): session opened for user ananya by (uid=0)
+Sep 16 14:00:09 bastion01 sudo:   ananya : TTY=pts/4 ; PWD=/home/ananya ; USER=root ; COMMAND=/usr/bin/docker ps
+Sep 16 14:06:28 bastion01 sudo:   ananya : TTY=pts/3 ; PWD=/home/ananya ; USER=root ; COMMAND=/usr/bin/apt-get update
+Sep 16 14:09:38 bastion01 sshd[20630]: Accepted publickey for rahul from 10.20.1.44 port 55952 ssh2: RSA SHA256:BCLMVCMUV58ECGLQFM9G3X8A
+Sep 16 14:09:38 bastion01 sshd[20630]: pam_unix(sshd:session): session opened for user rahul by (uid=0)
+Sep 16 14:10:08 bastion01 sudo:   rahul : TTY=pts/1 ; PWD=/home/rahul ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx
+Sep 16 14:21:04 bastion01 sshd[20795]: pam_unix(sshd:session): session closed for user ananya
+Sep 16 14:48:24 bastion01 sshd[20630]: pam_unix(sshd:session): session closed for user rahul
+Sep 16 15:57:15 bastion01 sshd[20766]: Accepted publickey for rahul from 10.20.1.44 port 59979 ssh2: RSA SHA256:2LRU89PMA8D8QESXNH1RAUV3
+Sep 16 15:57:15 bastion01 sshd[20766]: pam_unix(sshd:session): session opened for user rahul by (uid=0)
+Sep 16 15:59:14 bastion01 sudo:   rahul : TTY=pts/0 ; PWD=/home/rahul ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx
+Sep 16 16:38:32 bastion01 sshd[20766]: pam_unix(sshd:session): session closed for user rahul
+Sep 16 16:42:56 bastion01 sshd[20826]: Accepted publickey for deploy from 10.20.1.15 port 61727 ssh2: RSA SHA256:JMWY26B8QNBC1VSN6DXZFLZ6
+Sep 16 16:42:56 bastion01 sshd[20826]: pam_unix(sshd:session): session opened for user deploy by (uid=0)
+Sep 16 16:48:49 bastion01 sudo:   deploy : TTY=pts/1 ; PWD=/home/deploy ; USER=root ; COMMAND=/usr/bin/journalctl -u payment-service --since today
+Sep 16 16:52:11 bastion01 sshd[20833]: Failed password for root from 117.190.108.232 port 42633 ssh2
+Sep 16 16:52:41 bastion01 sudo:   deploy : TTY=pts/1 ; PWD=/home/deploy ; USER=root ; COMMAND=/usr/bin/apt-get update
+Sep 16 16:53:26 bastion01 sudo:   deploy : TTY=pts/3 ; PWD=/home/deploy ; USER=root ; COMMAND=/usr/bin/docker ps
+Sep 16 17:26:08 bastion01 sshd[20826]: pam_unix(sshd:session): session closed for user deploy
+Sep 16 18:23:10 bastion01 sshd[20733]: Accepted publickey for ananya from 10.20.1.31 port 59888 ssh2: RSA SHA256:ZP2SHDWDK9ENDLC6KB5WMH68
+Sep 16 18:23:10 bastion01 sshd[20733]: pam_unix(sshd:session): session opened for user ananya by (uid=0)
+Sep 16 18:25:33 bastion01 sudo:   ananya : TTY=pts/4 ; PWD=/home/ananya ; USER=root ; COMMAND=/usr/bin/journalctl -u payment-service --since today
+Sep 16 18:29:50 bastion01 sudo:   ananya : TTY=pts/2 ; PWD=/home/ananya ; USER=root ; COMMAND=/usr/bin/systemctl status order-service
+Sep 16 18:30:28 bastion01 sudo:   ananya : TTY=pts/4 ; PWD=/home/ananya ; USER=root ; COMMAND=/usr/bin/docker ps
+Sep 16 18:41:49 bastion01 sshd[20688]: Accepted publickey for deploy from 10.20.1.15 port 50299 ssh2: RSA SHA256:3GSKFYQ4G8MCTHMBGXLUGUXB
+Sep 16 18:41:49 bastion01 sshd[20688]: pam_unix(sshd:session): session opened for user deploy by (uid=0)
+Sep 16 18:44:34 bastion01 sudo:   deploy : TTY=pts/0 ; PWD=/home/deploy ; USER=root ; COMMAND=/usr/bin/apt-get update
+Sep 16 18:48:15 bastion01 sshd[20733]: pam_unix(sshd:session): session closed for user ananya
+Sep 16 19:07:27 bastion01 sshd[20725]: Accepted publickey for rahul from 10.20.1.44 port 41640 ssh2: RSA SHA256:TJX2YJ81DZDU53GST37ZS1XN
+Sep 16 19:07:27 bastion01 sshd[20725]: pam_unix(sshd:session): session opened for user rahul by (uid=0)
+Sep 16 19:11:57 bastion01 sudo:   rahul : TTY=pts/0 ; PWD=/home/rahul ; USER=root ; COMMAND=/usr/bin/apt-get update
+Sep 16 19:14:23 bastion01 sudo:   rahul : TTY=pts/3 ; PWD=/home/rahul ; USER=root ; COMMAND=/usr/bin/systemctl status order-service
+Sep 16 19:22:38 bastion01 sshd[20688]: pam_unix(sshd:session): session closed for user deploy
+Sep 16 19:34:00 bastion01 sshd[20725]: pam_unix(sshd:session): session closed for user rahul
+Sep 16 21:58:41 bastion01 sshd[20847]: Failed password for root from 182.36.72.128 port 35410 ssh2
+Sep 16 23:42:18 bastion01 sshd[20854]: Failed password for root from 49.220.21.79 port 59347 ssh2
+Sep 17 02:11:08 bastion01 sshd[21861]: Invalid user oracle from 203.0.113.77 port 53612
+Sep 17 02:11:08 bastion01 sshd[21861]: Failed password for invalid user oracle from 203.0.113.77 port 53612 ssh2
+Sep 17 02:11:11 bastion01 sshd[21862]: Invalid user test from 203.0.113.77 port 39444
+Sep 17 02:11:11 bastion01 sshd[21862]: Failed password for invalid user test from 203.0.113.77 port 39444 ssh2
+Sep 17 02:11:13 bastion01 sshd[21863]: Invalid user user from 203.0.113.77 port 61038
+Sep 17 02:11:13 bastion01 sshd[21863]: Failed password for invalid user user from 203.0.113.77 port 61038 ssh2
+Sep 17 02:11:15 bastion01 sshd[21864]: Failed password for root from 203.0.113.77 port 44332 ssh2
+Sep 17 02:11:18 bastion01 sshd[21865]: Invalid user admin from 203.0.113.77 port 30612
+Sep 17 02:11:18 bastion01 sshd[21865]: Failed password for invalid user admin from 203.0.113.77 port 30612 ssh2
+Sep 17 02:11:21 bastion01 sshd[21866]: Invalid user postgres from 203.0.113.77 port 49206
+Sep 17 02:11:21 bastion01 sshd[21866]: Failed password for invalid user postgres from 203.0.113.77 port 49206 ssh2
+Sep 17 02:11:26 bastion01 sshd[21867]: Invalid user ftpuser from 203.0.113.77 port 64750
+Sep 17 02:11:26 bastion01 sshd[21867]: Failed password for invalid user ftpuser from 203.0.113.77 port 64750 ssh2
+Sep 17 02:11:29 bastion01 sshd[21868]: Failed password for deploy from 203.0.113.77 port 47576 ssh2
+Sep 17 02:11:31 bastion01 sshd[21869]: Invalid user git from 203.0.113.77 port 63754
+Sep 17 02:11:31 bastion01 sshd[21869]: Failed password for invalid user git from 203.0.113.77 port 63754 ssh2
+Sep 17 02:11:33 bastion01 sshd[21870]: Invalid user oracle from 203.0.113.77 port 48573
+Sep 17 02:11:33 bastion01 sshd[21870]: Failed password for invalid user oracle from 203.0.113.77 port 48573 ssh2
+Sep 17 02:11:35 bastion01 sshd[21871]: Invalid user admin from 203.0.113.77 port 60542
+Sep 17 02:11:35 bastion01 sshd[21871]: Failed password for invalid user admin from 203.0.113.77 port 60542 ssh2
+Sep 17 02:11:39 bastion01 sshd[21872]: Failed password for root from 203.0.113.77 port 30914 ssh2
+Sep 17 02:11:42 bastion01 sshd[21873]: Invalid user ftpuser from 203.0.113.77 port 39920
+Sep 17 02:11:42 bastion01 sshd[21873]: Failed password for invalid user ftpuser from 203.0.113.77 port 39920 ssh2
+Sep 17 02:11:46 bastion01 sshd[21874]: Failed password for ubuntu from 203.0.113.77 port 57551 ssh2
+Sep 17 02:11:49 bastion01 sshd[21875]: Invalid user admin from 203.0.113.77 port 50398
+Sep 17 02:11:49 bastion01 sshd[21875]: Failed password for invalid user admin from 203.0.113.77 port 50398 ssh2
+Sep 17 02:11:52 bastion01 sshd[21876]: Invalid user ftpuser from 203.0.113.77 port 62754
+Sep 17 02:11:52 bastion01 sshd[21876]: Failed password for invalid user ftpuser from 203.0.113.77 port 62754 ssh2
+Sep 17 02:11:57 bastion01 sshd[21877]: Invalid user admin from 203.0.113.77 port 39327
+Sep 17 02:11:57 bastion01 sshd[21877]: Failed password for invalid user admin from 203.0.113.77 port 39327 ssh2
+Sep 17 02:12:00 bastion01 sshd[21878]: Invalid user admin from 203.0.113.77 port 48104
+Sep 17 02:12:00 bastion01 sshd[21878]: Failed password for invalid user admin from 203.0.113.77 port 48104 ssh2
+Sep 17 02:12:03 bastion01 sshd[21879]: Invalid user admin from 203.0.113.77 port 47071
+Sep 17 02:12:03 bastion01 sshd[21879]: Failed password for invalid user admin from 203.0.113.77 port 47071 ssh2
+Sep 17 02:12:08 bastion01 sshd[21880]: Failed password for root from 203.0.113.77 port 64135 ssh2
+Sep 17 02:12:12 bastion01 sshd[21881]: Invalid user ftpuser from 203.0.113.77 port 31812
+Sep 17 02:12:12 bastion01 sshd[21881]: Failed password for invalid user ftpuser from 203.0.113.77 port 31812 ssh2
+Sep 17 02:12:15 bastion01 sshd[21882]: Failed password for root from 203.0.113.77 port 61197 ssh2
+Sep 17 02:12:17 bastion01 sshd[21883]: Failed password for root from 203.0.113.77 port 63813 ssh2
+Sep 17 02:12:21 bastion01 sshd[21884]: Invalid user guest from 203.0.113.77 port 64453
+Sep 17 02:12:21 bastion01 sshd[21884]: Failed password for invalid user guest from 203.0.113.77 port 64453 ssh2
+Sep 17 02:12:24 bastion01 sshd[21885]: Invalid user admin from 203.0.113.77 port 47595
+Sep 17 02:12:24 bastion01 sshd[21885]: Failed password for invalid user admin from 203.0.113.77 port 47595 ssh2
+Sep 17 02:12:27 bastion01 sshd[21886]: Invalid user admin from 203.0.113.77 port 64030
+Sep 17 02:12:27 bastion01 sshd[21886]: Failed password for invalid user admin from 203.0.113.77 port 64030 ssh2
+Sep 17 02:12:29 bastion01 sshd[21887]: Invalid user test from 203.0.113.77 port 37855
+Sep 17 02:12:29 bastion01 sshd[21887]: Failed password for invalid user test from 203.0.113.77 port 37855 ssh2
+Sep 17 02:12:31 bastion01 sshd[21888]: Failed password for root from 203.0.113.77 port 38811 ssh2
+Sep 17 02:12:34 bastion01 sshd[21889]: Failed password for deploy from 203.0.113.77 port 41641 ssh2
+Sep 17 02:12:37 bastion01 sshd[21890]: Invalid user test from 203.0.113.77 port 60398
+Sep 17 02:12:37 bastion01 sshd[21890]: Failed password for invalid user test from 203.0.113.77 port 60398 ssh2
+Sep 17 02:12:40 bastion01 sshd[21891]: Failed password for root from 203.0.113.77 port 46901 ssh2
+Sep 17 02:12:44 bastion01 sshd[21892]: Invalid user test from 203.0.113.77 port 46117
+Sep 17 02:12:44 bastion01 sshd[21892]: Failed password for invalid user test from 203.0.113.77 port 46117 ssh2
+Sep 17 02:12:46 bastion01 sshd[21893]: Failed password for deploy from 203.0.113.77 port 43800 ssh2
+Sep 17 02:12:50 bastion01 sshd[21894]: Invalid user admin from 203.0.113.77 port 59019
+Sep 17 02:12:50 bastion01 sshd[21894]: Failed password for invalid user admin from 203.0.113.77 port 59019 ssh2
+Sep 17 02:12:52 bastion01 sshd[21895]: Failed password for root from 203.0.113.77 port 61139 ssh2
+Sep 17 02:12:55 bastion01 sshd[21896]: Invalid user admin from 203.0.113.77 port 53111
+Sep 17 02:12:55 bastion01 sshd[21896]: Failed password for invalid user admin from 203.0.113.77 port 53111 ssh2
+Sep 17 02:13:00 bastion01 sshd[21897]: Invalid user test from 203.0.113.77 port 30683
+Sep 17 02:13:00 bastion01 sshd[21897]: Failed password for invalid user test from 203.0.113.77 port 30683 ssh2
+Sep 17 02:13:02 bastion01 sshd[21898]: Invalid user admin from 203.0.113.77 port 43755
+Sep 17 02:13:02 bastion01 sshd[21898]: Failed password for invalid user admin from 203.0.113.77 port 43755 ssh2
+Sep 17 02:13:07 bastion01 sshd[21899]: Failed password for ubuntu from 203.0.113.77 port 45006 ssh2
+Sep 17 02:13:12 bastion01 sshd[21900]: Failed password for root from 203.0.113.77 port 53145 ssh2
+Sep 17 02:13:15 bastion01 sshd[21901]: Failed password for root from 203.0.113.77 port 39378 ssh2
+Sep 17 02:13:17 bastion01 sshd[21902]: Invalid user jenkins from 203.0.113.77 port 39640
+Sep 17 02:13:17 bastion01 sshd[21902]: Failed password for invalid user jenkins from 203.0.113.77 port 39640 ssh2
+Sep 17 02:13:21 bastion01 sshd[21903]: Failed password for ubuntu from 203.0.113.77 port 51820 ssh2
+Sep 17 02:13:23 bastion01 sshd[21904]: Invalid user test from 203.0.113.77 port 56198
+Sep 17 02:13:23 bastion01 sshd[21904]: Failed password for invalid user test from 203.0.113.77 port 56198 ssh2
+Sep 17 02:13:26 bastion01 sshd[21905]: Failed password for root from 203.0.113.77 port 45118 ssh2
+Sep 17 02:13:29 bastion01 sshd[21906]: Failed password for root from 203.0.113.77 port 45409 ssh2
+Sep 17 02:13:31 bastion01 sshd[21907]: Failed password for root from 203.0.113.77 port 52083 ssh2
+Sep 17 02:13:33 bastion01 sshd[21908]: Invalid user oracle from 203.0.113.77 port 61370
+Sep 17 02:13:33 bastion01 sshd[21908]: Failed password for invalid user oracle from 203.0.113.77 port 61370 ssh2
+Sep 17 02:13:36 bastion01 sshd[21909]: Failed password for root from 203.0.113.77 port 57525 ssh2
+Sep 17 02:13:39 bastion01 sshd[21910]: Failed password for root from 203.0.113.77 port 33516 ssh2
+Sep 17 02:13:41 bastion01 sshd[21911]: Invalid user admin from 203.0.113.77 port 61286
+Sep 17 02:13:41 bastion01 sshd[21911]: Failed password for invalid user admin from 203.0.113.77 port 61286 ssh2
+Sep 17 02:13:44 bastion01 sshd[21912]: Invalid user admin from 203.0.113.77 port 63231
+Sep 17 02:13:44 bastion01 sshd[21912]: Failed password for invalid user admin from 203.0.113.77 port 63231 ssh2
+Sep 17 02:13:46 bastion01 sshd[21913]: Failed password for ubuntu from 203.0.113.77 port 50703 ssh2
+Sep 17 02:13:50 bastion01 sshd[21914]: Failed password for deploy from 203.0.113.77 port 49860 ssh2
+Sep 17 02:13:52 bastion01 sshd[21915]: Invalid user user from 203.0.113.77 port 33390
+Sep 17 02:13:52 bastion01 sshd[21915]: Failed password for invalid user user from 203.0.113.77 port 33390 ssh2
+Sep 17 02:13:55 bastion01 sshd[21916]: Invalid user guest from 203.0.113.77 port 63662
+Sep 17 02:13:55 bastion01 sshd[21916]: Failed password for invalid user guest from 203.0.113.77 port 63662 ssh2
+Sep 17 02:13:58 bastion01 sshd[21917]: Invalid user git from 203.0.113.77 port 43540
+Sep 17 02:13:58 bastion01 sshd[21917]: Failed password for invalid user git from 203.0.113.77 port 43540 ssh2
+Sep 17 02:14:00 bastion01 sshd[21918]: Invalid user postgres from 203.0.113.77 port 35471
+Sep 17 02:14:00 bastion01 sshd[21918]: Failed password for invalid user postgres from 203.0.113.77 port 35471 ssh2
+Sep 17 02:14:03 bastion01 sshd[21919]: Failed password for root from 203.0.113.77 port 33977 ssh2
+Sep 17 02:14:08 bastion01 sshd[21920]: Invalid user test from 203.0.113.77 port 30704
+Sep 17 02:14:08 bastion01 sshd[21920]: Failed password for invalid user test from 203.0.113.77 port 30704 ssh2
+Sep 17 02:14:10 bastion01 sshd[21921]: Failed password for root from 203.0.113.77 port 38233 ssh2
+Sep 17 02:14:14 bastion01 sshd[21922]: Invalid user test from 203.0.113.77 port 36025
+Sep 17 02:14:14 bastion01 sshd[21922]: Failed password for invalid user test from 203.0.113.77 port 36025 ssh2
+Sep 17 02:14:16 bastion01 sshd[21923]: Failed password for deploy from 203.0.113.77 port 63020 ssh2
+Sep 17 02:14:20 bastion01 sshd[21924]: Failed password for ubuntu from 203.0.113.77 port 53219 ssh2
+Sep 17 02:14:22 bastion01 sshd[21925]: Invalid user admin from 203.0.113.77 port 46485
+Sep 17 02:14:22 bastion01 sshd[21925]: Failed password for invalid user admin from 203.0.113.77 port 46485 ssh2
+Sep 17 02:14:26 bastion01 sshd[21926]: Invalid user test from 203.0.113.77 port 42063
+Sep 17 02:14:26 bastion01 sshd[21926]: Failed password for invalid user test from 203.0.113.77 port 42063 ssh2
+Sep 17 02:14:31 bastion01 sshd[21927]: Invalid user ftpuser from 203.0.113.77 port 54058
+Sep 17 02:14:31 bastion01 sshd[21927]: Failed password for invalid user ftpuser from 203.0.113.77 port 54058 ssh2
+Sep 17 02:14:36 bastion01 sshd[21928]: Invalid user postgres from 203.0.113.77 port 42935
+Sep 17 02:14:36 bastion01 sshd[21928]: Failed password for invalid user postgres from 203.0.113.77 port 42935 ssh2
+Sep 17 02:14:39 bastion01 sshd[21929]: Invalid user git from 203.0.113.77 port 30605
+Sep 17 02:14:39 bastion01 sshd[21929]: Failed password for invalid user git from 203.0.113.77 port 30605 ssh2
+Sep 17 02:14:44 bastion01 sshd[21930]: Invalid user user from 203.0.113.77 port 46075
+Sep 17 02:14:44 bastion01 sshd[21930]: Failed password for invalid user user from 203.0.113.77 port 46075 ssh2
+Sep 17 02:14:49 bastion01 sshd[21931]: Failed password for root from 203.0.113.77 port 63134 ssh2
+Sep 17 02:14:52 bastion01 sshd[21932]: Failed password for root from 203.0.113.77 port 38507 ssh2
+Sep 17 02:14:56 bastion01 sshd[21933]: Failed password for ubuntu from 203.0.113.77 port 41149 ssh2
+Sep 17 02:15:00 bastion01 sshd[21934]: Failed password for root from 203.0.113.77 port 47941 ssh2
+Sep 17 02:15:04 bastion01 sshd[21935]: Invalid user user from 203.0.113.77 port 37787
+Sep 17 02:15:04 bastion01 sshd[21935]: Failed password for invalid user user from 203.0.113.77 port 37787 ssh2
+Sep 17 02:15:08 bastion01 sshd[21936]: Failed password for deploy from 203.0.113.77 port 56123 ssh2
+Sep 17 02:15:10 bastion01 sshd[21937]: Invalid user postgres from 203.0.113.77 port 54783
+Sep 17 02:15:10 bastion01 sshd[21937]: Failed password for invalid user postgres from 203.0.113.77 port 54783 ssh2
+Sep 17 02:15:12 bastion01 sshd[21938]: Failed password for ubuntu from 203.0.113.77 port 40834 ssh2
+Sep 17 02:15:16 bastion01 sshd[21939]: Invalid user ftpuser from 203.0.113.77 port 35094
+Sep 17 02:15:16 bastion01 sshd[21939]: Failed password for invalid user ftpuser from 203.0.113.77 port 35094 ssh2
+Sep 17 02:15:19 bastion01 sshd[21940]: Failed password for root from 203.0.113.77 port 54383 ssh2
+Sep 17 02:15:24 bastion01 sshd[21941]: Failed password for ubuntu from 203.0.113.77 port 38124 ssh2
+Sep 17 02:15:27 bastion01 sshd[21942]: Failed password for root from 203.0.113.77 port 51942 ssh2
+Sep 17 02:15:29 bastion01 sshd[21943]: Invalid user oracle from 203.0.113.77 port 49709
+Sep 17 02:15:29 bastion01 sshd[21943]: Failed password for invalid user oracle from 203.0.113.77 port 49709 ssh2
+Sep 17 02:15:32 bastion01 sshd[21944]: Failed password for root from 203.0.113.77 port 38080 ssh2
+Sep 17 02:15:35 bastion01 sshd[21945]: Failed password for ubuntu from 203.0.113.77 port 36422 ssh2
+Sep 17 02:15:40 bastion01 sshd[21946]: Invalid user admin from 203.0.113.77 port 45641
+Sep 17 02:15:40 bastion01 sshd[21946]: Failed password for invalid user admin from 203.0.113.77 port 45641 ssh2
+Sep 17 02:15:44 bastion01 sshd[21947]: Invalid user admin from 203.0.113.77 port 59570
+Sep 17 02:15:44 bastion01 sshd[21947]: Failed password for invalid user admin from 203.0.113.77 port 59570 ssh2
+Sep 17 02:15:48 bastion01 sshd[21948]: Invalid user postgres from 203.0.113.77 port 55411
+Sep 17 02:15:48 bastion01 sshd[21948]: Failed password for invalid user postgres from 203.0.113.77 port 55411 ssh2
+Sep 17 02:15:53 bastion01 sshd[21949]: Failed password for root from 203.0.113.77 port 61239 ssh2
+Sep 17 02:15:56 bastion01 sshd[21950]: Invalid user admin from 203.0.113.77 port 60835
+Sep 17 02:15:56 bastion01 sshd[21950]: Failed password for invalid user admin from 203.0.113.77 port 60835 ssh2
+Sep 17 02:16:01 bastion01 sshd[21951]: Invalid user test from 203.0.113.77 port 34091
+Sep 17 02:16:01 bastion01 sshd[21951]: Failed password for invalid user test from 203.0.113.77 port 34091 ssh2
+Sep 17 02:16:06 bastion01 sshd[21952]: Invalid user guest from 203.0.113.77 port 31589
+Sep 17 02:16:06 bastion01 sshd[21952]: Failed password for invalid user guest from 203.0.113.77 port 31589 ssh2
+Sep 17 02:16:11 bastion01 sshd[21953]: Invalid user admin from 203.0.113.77 port 47884
+Sep 17 02:16:11 bastion01 sshd[21953]: Failed password for invalid user admin from 203.0.113.77 port 47884 ssh2
+Sep 17 02:16:14 bastion01 sshd[21954]: Invalid user postgres from 203.0.113.77 port 33481
+Sep 17 02:16:14 bastion01 sshd[21954]: Failed password for invalid user postgres from 203.0.113.77 port 33481 ssh2
+Sep 17 02:16:19 bastion01 sshd[21955]: Invalid user ftpuser from 203.0.113.77 port 56387
+Sep 17 02:16:19 bastion01 sshd[21955]: Failed password for invalid user ftpuser from 203.0.113.77 port 56387 ssh2
+Sep 17 02:16:22 bastion01 sshd[21956]: Invalid user oracle from 203.0.113.77 port 51771
+Sep 17 02:16:22 bastion01 sshd[21956]: Failed password for invalid user oracle from 203.0.113.77 port 51771 ssh2
+Sep 17 02:16:26 bastion01 sshd[21957]: Failed password for root from 203.0.113.77 port 37983 ssh2
+Sep 17 02:16:29 bastion01 sshd[21958]: Failed password for root from 203.0.113.77 port 31141 ssh2
+Sep 17 02:16:34 bastion01 sshd[21959]: Invalid user admin from 203.0.113.77 port 32758
+Sep 17 02:16:34 bastion01 sshd[21959]: Failed password for invalid user admin from 203.0.113.77 port 32758 ssh2
+Sep 17 02:16:37 bastion01 sshd[21960]: Invalid user git from 203.0.113.77 port 60857
+Sep 17 02:16:37 bastion01 sshd[21960]: Failed password for invalid user git from 203.0.113.77 port 60857 ssh2
+Sep 17 02:16:39 bastion01 sshd[21961]: Failed password for root from 203.0.113.77 port 49177 ssh2
+Sep 17 02:16:42 bastion01 sshd[21962]: Invalid user oracle from 203.0.113.77 port 61664
+Sep 17 02:16:42 bastion01 sshd[21962]: Failed password for invalid user oracle from 203.0.113.77 port 61664 ssh2
+Sep 17 02:16:46 bastion01 sshd[21963]: Invalid user git from 203.0.113.77 port 36002
+Sep 17 02:16:46 bastion01 sshd[21963]: Failed password for invalid user git from 203.0.113.77 port 36002 ssh2
+Sep 17 02:16:51 bastion01 sshd[21964]: Failed password for root from 203.0.113.77 port 50475 ssh2
+Sep 17 02:16:54 bastion01 sshd[21965]: Invalid user admin from 203.0.113.77 port 35301
+Sep 17 02:16:54 bastion01 sshd[21965]: Failed password for invalid user admin from 203.0.113.77 port 35301 ssh2
+Sep 17 02:16:56 bastion01 sshd[21966]: Failed password for root from 203.0.113.77 port 60576 ssh2
+Sep 17 02:17:01 bastion01 sshd[21967]: Invalid user git from 203.0.113.77 port 60551
+Sep 17 02:17:01 bastion01 sshd[21967]: Failed password for invalid user git from 203.0.113.77 port 60551 ssh2
+Sep 17 02:17:05 bastion01 sshd[21968]: Invalid user test from 203.0.113.77 port 51653
+Sep 17 02:17:05 bastion01 sshd[21968]: Failed password for invalid user test from 203.0.113.77 port 51653 ssh2
+Sep 17 02:17:10 bastion01 sshd[21969]: Failed password for deploy from 203.0.113.77 port 62417 ssh2
+Sep 17 02:17:14 bastion01 sshd[21970]: Invalid user admin from 203.0.113.77 port 31961
+Sep 17 02:17:14 bastion01 sshd[21970]: Failed password for invalid user admin from 203.0.113.77 port 31961 ssh2
+Sep 17 02:17:17 bastion01 sshd[21971]: Failed password for deploy from 203.0.113.77 port 47347 ssh2
+Sep 17 02:17:22 bastion01 sshd[21972]: Failed password for ubuntu from 203.0.113.77 port 48791 ssh2
+Sep 17 02:17:27 bastion01 sshd[21973]: Invalid user oracle from 203.0.113.77 port 50988
+Sep 17 02:17:27 bastion01 sshd[21973]: Failed password for invalid user oracle from 203.0.113.77 port 50988 ssh2
+Sep 17 02:17:32 bastion01 sshd[21974]: Failed password for root from 203.0.113.77 port 43871 ssh2
+Sep 17 02:17:36 bastion01 sshd[21975]: Failed password for root from 203.0.113.77 port 43138 ssh2
+Sep 17 02:17:39 bastion01 sshd[21976]: Failed password for ubuntu from 203.0.113.77 port 40032 ssh2
+Sep 17 02:17:42 bastion01 sshd[21977]: Failed password for deploy from 203.0.113.77 port 59132 ssh2
+Sep 17 02:17:47 bastion01 sshd[21978]: Failed password for root from 203.0.113.77 port 51088 ssh2
+Sep 17 02:17:51 bastion01 sshd[21979]: Invalid user git from 203.0.113.77 port 58460
+Sep 17 02:17:51 bastion01 sshd[21979]: Failed password for invalid user git from 203.0.113.77 port 58460 ssh2
+Sep 17 02:17:54 bastion01 sshd[21980]: Failed password for root from 203.0.113.77 port 39056 ssh2
+Sep 17 02:17:59 bastion01 sshd[21981]: Invalid user postgres from 203.0.113.77 port 46901
+Sep 17 02:17:59 bastion01 sshd[21981]: Failed password for invalid user postgres from 203.0.113.77 port 46901 ssh2
+Sep 17 02:18:02 bastion01 sshd[21982]: Invalid user user from 203.0.113.77 port 49249
+Sep 17 02:18:02 bastion01 sshd[21982]: Failed password for invalid user user from 203.0.113.77 port 49249 ssh2
+Sep 17 02:18:05 bastion01 sshd[21983]: Failed password for root from 203.0.113.77 port 51613 ssh2
+Sep 17 02:18:09 bastion01 sshd[21984]: Invalid user postgres from 203.0.113.77 port 57147
+Sep 17 02:18:09 bastion01 sshd[21984]: Failed password for invalid user postgres from 203.0.113.77 port 57147 ssh2
+Sep 17 02:18:13 bastion01 sshd[21985]: Invalid user test from 203.0.113.77 port 59029
+Sep 17 02:18:13 bastion01 sshd[21985]: Failed password for invalid user test from 203.0.113.77 port 59029 ssh2
+Sep 17 02:18:18 bastion01 sshd[21986]: Invalid user oracle from 203.0.113.77 port 43300
+Sep 17 02:18:18 bastion01 sshd[21986]: Failed password for invalid user oracle from 203.0.113.77 port 43300 ssh2
+Sep 17 02:18:20 bastion01 sshd[21987]: Failed password for deploy from 203.0.113.77 port 36063 ssh2
+Sep 17 02:18:22 bastion01 sshd[21988]: Failed password for ubuntu from 203.0.113.77 port 63129 ssh2
+Sep 17 02:18:26 bastion01 sshd[21989]: Failed password for root from 203.0.113.77 port 46086 ssh2
+Sep 17 02:18:31 bastion01 sshd[21990]: Invalid user git from 203.0.113.77 port 47423
+Sep 17 02:18:31 bastion01 sshd[21990]: Failed password for invalid user git from 203.0.113.77 port 47423 ssh2
+Sep 17 02:18:34 bastion01 sshd[21991]: Invalid user user from 203.0.113.77 port 55579
+Sep 17 02:18:34 bastion01 sshd[21991]: Failed password for invalid user user from 203.0.113.77 port 55579 ssh2
+Sep 17 02:18:37 bastion01 sshd[21992]: Invalid user guest from 203.0.113.77 port 37365
+Sep 17 02:18:37 bastion01 sshd[21992]: Failed password for invalid user guest from 203.0.113.77 port 37365 ssh2
+Sep 17 02:18:41 bastion01 sshd[21993]: Invalid user admin from 203.0.113.77 port 63409
+Sep 17 02:18:41 bastion01 sshd[21993]: Failed password for invalid user admin from 203.0.113.77 port 63409 ssh2
+Sep 17 02:18:45 bastion01 sshd[21994]: Failed password for ubuntu from 203.0.113.77 port 38113 ssh2
+Sep 17 02:18:47 bastion01 sshd[21995]: Failed password for root from 203.0.113.77 port 47174 ssh2
+Sep 17 02:18:51 bastion01 sshd[21996]: Invalid user admin from 203.0.113.77 port 33575
+Sep 17 02:18:51 bastion01 sshd[21996]: Failed password for invalid user admin from 203.0.113.77 port 33575 ssh2
+Sep 17 02:18:54 bastion01 sshd[21997]: Failed password for ubuntu from 203.0.113.77 port 59709 ssh2
+Sep 17 02:18:57 bastion01 sshd[21998]: Failed password for deploy from 203.0.113.77 port 52176 ssh2
+Sep 17 02:19:00 bastion01 sshd[21999]: Failed password for deploy from 203.0.113.77 port 39143 ssh2
+Sep 17 02:19:02 bastion01 sshd[22000]: Invalid user admin from 203.0.113.77 port 48669
+Sep 17 02:19:02 bastion01 sshd[22000]: Failed password for invalid user admin from 203.0.113.77 port 48669 ssh2
+Sep 17 02:19:04 bastion01 sshd[22001]: Failed password for ubuntu from 203.0.113.77 port 31178 ssh2
+Sep 17 02:19:07 bastion01 sshd[22002]: Failed password for deploy from 203.0.113.77 port 53563 ssh2
+Sep 17 02:19:12 bastion01 sshd[22003]: Invalid user jenkins from 203.0.113.77 port 48157
+Sep 17 02:19:12 bastion01 sshd[22003]: Failed password for invalid user jenkins from 203.0.113.77 port 48157 ssh2
+Sep 17 02:19:15 bastion01 sshd[22004]: Failed password for ubuntu from 203.0.113.77 port 59385 ssh2
+Sep 17 02:19:20 bastion01 sshd[22005]: Failed password for root from 203.0.113.77 port 57473 ssh2
+Sep 17 02:19:22 bastion01 sshd[22006]: Invalid user user from 203.0.113.77 port 45513
+Sep 17 02:19:22 bastion01 sshd[22006]: Failed password for invalid user user from 203.0.113.77 port 45513 ssh2
+Sep 17 02:19:24 bastion01 sshd[22007]: Failed password for ubuntu from 203.0.113.77 port 39635 ssh2
+Sep 17 02:19:26 bastion01 sshd[22008]: Invalid user oracle from 203.0.113.77 port 30353
+Sep 17 02:19:26 bastion01 sshd[22008]: Failed password for invalid user oracle from 203.0.113.77 port 30353 ssh2
+Sep 17 02:19:29 bastion01 sshd[22009]: Failed password for root from 203.0.113.77 port 58937 ssh2
+Sep 17 02:19:32 bastion01 sshd[22010]: Invalid user git from 203.0.113.77 port 52808
+Sep 17 02:19:32 bastion01 sshd[22010]: Failed password for invalid user git from 203.0.113.77 port 52808 ssh2
+Sep 17 02:19:37 bastion01 sshd[22011]: Invalid user ftpuser from 203.0.113.77 port 37401
+Sep 17 02:19:37 bastion01 sshd[22011]: Failed password for invalid user ftpuser from 203.0.113.77 port 37401 ssh2
+Sep 17 02:19:41 bastion01 sshd[22012]: Invalid user admin from 203.0.113.77 port 35900
+Sep 17 02:19:41 bastion01 sshd[22012]: Failed password for invalid user admin from 203.0.113.77 port 35900 ssh2
+Sep 17 02:19:43 bastion01 sshd[22013]: Invalid user admin from 203.0.113.77 port 32948
+Sep 17 02:19:43 bastion01 sshd[22013]: Failed password for invalid user admin from 203.0.113.77 port 32948 ssh2
+Sep 17 02:19:47 bastion01 sshd[22014]: Failed password for root from 203.0.113.77 port 60752 ssh2
+Sep 17 02:19:52 bastion01 sshd[22015]: Invalid user git from 203.0.113.77 port 47252
+Sep 17 02:19:52 bastion01 sshd[22015]: Failed password for invalid user git from 203.0.113.77 port 47252 ssh2
+Sep 17 02:19:57 bastion01 sshd[22016]: Invalid user ftpuser from 203.0.113.77 port 31766
+Sep 17 02:19:57 bastion01 sshd[22016]: Failed password for invalid user ftpuser from 203.0.113.77 port 31766 ssh2
+Sep 17 02:20:02 bastion01 sshd[22017]: Invalid user guest from 203.0.113.77 port 37331
+Sep 17 02:20:02 bastion01 sshd[22017]: Failed password for invalid user guest from 203.0.113.77 port 37331 ssh2
+Sep 17 02:20:07 bastion01 sshd[22018]: Failed password for root from 203.0.113.77 port 38948 ssh2
+Sep 17 02:20:10 bastion01 sshd[22019]: Invalid user guest from 203.0.113.77 port 62173
+Sep 17 02:20:10 bastion01 sshd[22019]: Failed password for invalid user guest from 203.0.113.77 port 62173 ssh2
+Sep 17 02:20:15 bastion01 sshd[22020]: Failed password for deploy from 203.0.113.77 port 42867 ssh2
+Sep 17 02:20:18 bastion01 sshd[22021]: Failed password for root from 203.0.113.77 port 63292 ssh2
+Sep 17 02:20:23 bastion01 sshd[22022]: Invalid user git from 203.0.113.77 port 51305
+Sep 17 02:20:23 bastion01 sshd[22022]: Failed password for invalid user git from 203.0.113.77 port 51305 ssh2
+Sep 17 02:20:25 bastion01 sshd[22023]: Failed password for root from 203.0.113.77 port 47401 ssh2
+Sep 17 02:20:27 bastion01 sshd[22024]: Failed password for deploy from 203.0.113.77 port 46933 ssh2
+Sep 17 02:20:32 bastion01 sshd[22025]: Invalid user oracle from 203.0.113.77 port 37177
+Sep 17 02:20:32 bastion01 sshd[22025]: Failed password for invalid user oracle from 203.0.113.77 port 37177 ssh2
+Sep 17 02:20:34 bastion01 sshd[22026]: Invalid user admin from 203.0.113.77 port 61898
+Sep 17 02:20:34 bastion01 sshd[22026]: Failed password for invalid user admin from 203.0.113.77 port 61898 ssh2
+Sep 17 02:20:37 bastion01 sshd[22027]: Invalid user test from 203.0.113.77 port 58872
+Sep 17 02:20:37 bastion01 sshd[22027]: Failed password for invalid user test from 203.0.113.77 port 58872 ssh2
+Sep 17 02:20:41 bastion01 sshd[22028]: Invalid user admin from 203.0.113.77 port 33623
+Sep 17 02:20:41 bastion01 sshd[22028]: Failed password for invalid user admin from 203.0.113.77 port 33623 ssh2
+Sep 17 02:20:43 bastion01 sshd[22029]: Invalid user postgres from 203.0.113.77 port 36309
+Sep 17 02:20:43 bastion01 sshd[22029]: Failed password for invalid user postgres from 203.0.113.77 port 36309 ssh2
+Sep 17 02:20:48 bastion01 sshd[22030]: Invalid user oracle from 203.0.113.77 port 53361
+Sep 17 02:20:48 bastion01 sshd[22030]: Failed password for invalid user oracle from 203.0.113.77 port 53361 ssh2
+Sep 17 02:20:51 bastion01 sshd[22031]: Invalid user admin from 203.0.113.77 port 46728
+Sep 17 02:20:51 bastion01 sshd[22031]: Failed password for invalid user admin from 203.0.113.77 port 46728 ssh2
+Sep 17 02:20:54 bastion01 sshd[22032]: Invalid user git from 203.0.113.77 port 51738
+Sep 17 02:20:54 bastion01 sshd[22032]: Failed password for invalid user git from 203.0.113.77 port 51738 ssh2
+Sep 17 02:20:56 bastion01 sshd[22033]: Invalid user postgres from 203.0.113.77 port 36649
+Sep 17 02:20:56 bastion01 sshd[22033]: Failed password for invalid user postgres from 203.0.113.77 port 36649 ssh2
+Sep 17 02:21:00 bastion01 sshd[22034]: Failed password for root from 203.0.113.77 port 59196 ssh2
+Sep 17 02:21:03 bastion01 sshd[22035]: Invalid user test from 203.0.113.77 port 38166
+Sep 17 02:21:03 bastion01 sshd[22035]: Failed password for invalid user test from 203.0.113.77 port 38166 ssh2
+Sep 17 02:21:07 bastion01 sshd[22036]: Invalid user test from 203.0.113.77 port 63232
+Sep 17 02:21:07 bastion01 sshd[22036]: Failed password for invalid user test from 203.0.113.77 port 63232 ssh2
+Sep 17 02:21:12 bastion01 sshd[22037]: Invalid user admin from 203.0.113.77 port 31741
+Sep 17 02:21:12 bastion01 sshd[22037]: Failed password for invalid user admin from 203.0.113.77 port 31741 ssh2
+Sep 17 02:21:17 bastion01 sshd[22038]: Invalid user jenkins from 203.0.113.77 port 47479
+Sep 17 02:21:17 bastion01 sshd[22038]: Failed password for invalid user jenkins from 203.0.113.77 port 47479 ssh2
+Sep 17 02:21:21 bastion01 sshd[22039]: Failed password for ubuntu from 203.0.113.77 port 47392 ssh2
+Sep 17 02:21:24 bastion01 sshd[22040]: Invalid user git from 203.0.113.77 port 61449
+Sep 17 02:21:24 bastion01 sshd[22040]: Failed password for invalid user git from 203.0.113.77 port 61449 ssh2
+Sep 17 02:21:29 bastion01 sshd[22041]: Invalid user admin from 203.0.113.77 port 35811
+Sep 17 02:21:29 bastion01 sshd[22041]: Failed password for invalid user admin from 203.0.113.77 port 35811 ssh2
+Sep 17 02:21:34 bastion01 sshd[22042]: Invalid user admin from 203.0.113.77 port 61078
+Sep 17 02:21:34 bastion01 sshd[22042]: Failed password for invalid user admin from 203.0.113.77 port 61078 ssh2
+Sep 17 02:21:37 bastion01 sshd[22043]: Invalid user test from 203.0.113.77 port 51829
+Sep 17 02:21:37 bastion01 sshd[22043]: Failed password for invalid user test from 203.0.113.77 port 51829 ssh2
+Sep 17 02:21:41 bastion01 sshd[22044]: Invalid user git from 203.0.113.77 port 39488
+Sep 17 02:21:41 bastion01 sshd[22044]: Failed password for invalid user git from 203.0.113.77 port 39488 ssh2
+Sep 17 02:21:44 bastion01 sshd[22045]: Invalid user guest from 203.0.113.77 port 51085
+Sep 17 02:21:44 bastion01 sshd[22045]: Failed password for invalid user guest from 203.0.113.77 port 51085 ssh2
+Sep 17 02:21:47 bastion01 sshd[22046]: Invalid user guest from 203.0.113.77 port 44075
+Sep 17 02:21:47 bastion01 sshd[22046]: Failed password for invalid user guest from 203.0.113.77 port 44075 ssh2
+Sep 17 02:21:49 bastion01 sshd[22047]: Failed password for root from 203.0.113.77 port 58008 ssh2
+Sep 17 02:21:52 bastion01 sshd[22048]: Invalid user admin from 203.0.113.77 port 44679
+Sep 17 02:21:52 bastion01 sshd[22048]: Failed password for invalid user admin from 203.0.113.77 port 44679 ssh2
+Sep 17 02:21:54 bastion01 sshd[22049]: Invalid user postgres from 203.0.113.77 port 49526
+Sep 17 02:21:54 bastion01 sshd[22049]: Failed password for invalid user postgres from 203.0.113.77 port 49526 ssh2
+Sep 17 02:21:59 bastion01 sshd[22050]: Invalid user jenkins from 203.0.113.77 port 56077
+Sep 17 02:21:59 bastion01 sshd[22050]: Failed password for invalid user jenkins from 203.0.113.77 port 56077 ssh2
+Sep 17 02:22:01 bastion01 sshd[22051]: Invalid user admin from 203.0.113.77 port 53441
+Sep 17 02:22:01 bastion01 sshd[22051]: Failed password for invalid user admin from 203.0.113.77 port 53441 ssh2
+Sep 17 02:22:06 bastion01 sshd[22052]: Invalid user jenkins from 203.0.113.77 port 46074
+Sep 17 02:22:06 bastion01 sshd[22052]: Failed password for invalid user jenkins from 203.0.113.77 port 46074 ssh2
+Sep 17 02:22:09 bastion01 sshd[22053]: Invalid user admin from 203.0.113.77 port 44897
+Sep 17 02:22:09 bastion01 sshd[22053]: Failed password for invalid user admin from 203.0.113.77 port 44897 ssh2
+Sep 17 02:22:13 bastion01 sshd[22054]: Invalid user admin from 203.0.113.77 port 30146
+Sep 17 02:22:13 bastion01 sshd[22054]: Failed password for invalid user admin from 203.0.113.77 port 30146 ssh2
+Sep 17 02:22:15 bastion01 sshd[22055]: Failed password for root from 203.0.113.77 port 60772 ssh2
+Sep 17 02:22:19 bastion01 sshd[22056]: Invalid user user from 203.0.113.77 port 41538
+Sep 17 02:22:19 bastion01 sshd[22056]: Failed password for invalid user user from 203.0.113.77 port 41538 ssh2
+Sep 17 02:22:22 bastion01 sshd[22057]: Failed password for ubuntu from 203.0.113.77 port 57804 ssh2
+Sep 17 02:22:24 bastion01 sshd[22058]: Failed password for root from 203.0.113.77 port 55497 ssh2
+Sep 17 02:22:26 bastion01 sshd[22059]: Invalid user test from 203.0.113.77 port 30249
+Sep 17 02:22:26 bastion01 sshd[22059]: Failed password for invalid user test from 203.0.113.77 port 30249 ssh2
+Sep 17 02:22:30 bastion01 sshd[22060]: Invalid user admin from 203.0.113.77 port 38822
+Sep 17 02:22:30 bastion01 sshd[22060]: Failed password for invalid user admin from 203.0.113.77 port 38822 ssh2
+Sep 17 02:22:33 bastion01 sshd[22061]: Invalid user test from 203.0.113.77 port 50834
+Sep 17 02:22:33 bastion01 sshd[22061]: Failed password for invalid user test from 203.0.113.77 port 50834 ssh2
+Sep 17 02:22:36 bastion01 sshd[22062]: Failed password for ubuntu from 203.0.113.77 port 45314 ssh2
+Sep 17 02:22:41 bastion01 sshd[22063]: Failed password for root from 203.0.113.77 port 43005 ssh2
+Sep 17 02:22:46 bastion01 sshd[22064]: Invalid user admin from 203.0.113.77 port 32960
+Sep 17 02:22:46 bastion01 sshd[22064]: Failed password for invalid user admin from 203.0.113.77 port 32960 ssh2
+Sep 17 02:22:49 bastion01 sshd[22065]: Failed password for root from 203.0.113.77 port 33924 ssh2
+Sep 17 02:22:53 bastion01 sshd[22066]: Failed password for deploy from 203.0.113.77 port 30612 ssh2
+Sep 17 02:22:56 bastion01 sshd[22067]: Invalid user jenkins from 203.0.113.77 port 51792
+Sep 17 02:22:56 bastion01 sshd[22067]: Failed password for invalid user jenkins from 203.0.113.77 port 51792 ssh2
+Sep 17 02:23:01 bastion01 sshd[22068]: Failed password for root from 203.0.113.77 port 34899 ssh2
+Sep 17 02:23:04 bastion01 sshd[22069]: Failed password for root from 203.0.113.77 port 54227 ssh2
+Sep 17 02:23:08 bastion01 sshd[22070]: Invalid user jenkins from 203.0.113.77 port 43603
+Sep 17 02:23:08 bastion01 sshd[22070]: Failed password for invalid user jenkins from 203.0.113.77 port 43603 ssh2
+Sep 17 02:23:12 bastion01 sshd[22071]: Failed password for root from 203.0.113.77 port 39900 ssh2
+Sep 17 02:23:15 bastion01 sshd[22072]: Invalid user admin from 203.0.113.77 port 62746
+Sep 17 02:23:15 bastion01 sshd[22072]: Failed password for invalid user admin from 203.0.113.77 port 62746 ssh2
+Sep 17 02:23:19 bastion01 sshd[22073]: Invalid user admin from 203.0.113.77 port 48646
+Sep 17 02:23:19 bastion01 sshd[22073]: Failed password for invalid user admin from 203.0.113.77 port 48646 ssh2
+Sep 17 02:23:22 bastion01 sshd[22074]: Invalid user guest from 203.0.113.77 port 47423
+Sep 17 02:23:22 bastion01 sshd[22074]: Failed password for invalid user guest from 203.0.113.77 port 47423 ssh2
+Sep 17 02:23:26 bastion01 sshd[22075]: Invalid user guest from 203.0.113.77 port 33192
+Sep 17 02:23:26 bastion01 sshd[22075]: Failed password for invalid user guest from 203.0.113.77 port 33192 ssh2
+Sep 17 02:23:28 bastion01 sshd[22076]: Failed password for root from 203.0.113.77 port 60416 ssh2
+Sep 17 02:23:31 bastion01 sshd[22077]: Invalid user admin from 203.0.113.77 port 45345
+Sep 17 02:23:31 bastion01 sshd[22077]: Failed password for invalid user admin from 203.0.113.77 port 45345 ssh2
+Sep 17 02:23:34 bastion01 sshd[22078]: Invalid user user from 203.0.113.77 port 42726
+Sep 17 02:23:34 bastion01 sshd[22078]: Failed password for invalid user user from 203.0.113.77 port 42726 ssh2
+Sep 17 02:23:37 bastion01 sshd[22079]: Invalid user postgres from 203.0.113.77 port 61589
+Sep 17 02:23:37 bastion01 sshd[22079]: Failed password for invalid user postgres from 203.0.113.77 port 61589 ssh2
+Sep 17 02:23:42 bastion01 sshd[22080]: Invalid user admin from 203.0.113.77 port 53408
+Sep 17 02:23:42 bastion01 sshd[22080]: Failed password for invalid user admin from 203.0.113.77 port 53408 ssh2
+Sep 17 02:23:46 bastion01 sshd[22081]: Invalid user ftpuser from 203.0.113.77 port 46246
+Sep 17 02:23:46 bastion01 sshd[22081]: Failed password for invalid user ftpuser from 203.0.113.77 port 46246 ssh2
+Sep 17 02:23:51 bastion01 sshd[22082]: Invalid user git from 203.0.113.77 port 32756
+Sep 17 02:23:51 bastion01 sshd[22082]: Failed password for invalid user git from 203.0.113.77 port 32756 ssh2
+Sep 17 02:23:56 bastion01 sshd[22083]: Invalid user oracle from 203.0.113.77 port 35003
+Sep 17 02:23:56 bastion01 sshd[22083]: Failed password for invalid user oracle from 203.0.113.77 port 35003 ssh2
+Sep 17 02:23:58 bastion01 sshd[22084]: Failed password for ubuntu from 203.0.113.77 port 48082 ssh2
+Sep 17 02:24:01 bastion01 sshd[22085]: Failed password for root from 203.0.113.77 port 47512 ssh2
+Sep 17 02:24:03 bastion01 sshd[22086]: Invalid user guest from 203.0.113.77 port 59602
+Sep 17 02:24:03 bastion01 sshd[22086]: Failed password for invalid user guest from 203.0.113.77 port 59602 ssh2
+Sep 17 02:24:06 bastion01 sshd[22087]: Invalid user test from 203.0.113.77 port 49317
+Sep 17 02:24:06 bastion01 sshd[22087]: Failed password for invalid user test from 203.0.113.77 port 49317 ssh2
+Sep 17 02:24:08 bastion01 sshd[22088]: Failed password for ubuntu from 203.0.113.77 port 34157 ssh2
+Sep 17 02:24:11 bastion01 sshd[22089]: Invalid user oracle from 203.0.113.77 port 60799
+Sep 17 02:24:11 bastion01 sshd[22089]: Failed password for invalid user oracle from 203.0.113.77 port 60799 ssh2
+Sep 17 02:24:14 bastion01 sshd[22090]: Invalid user admin from 203.0.113.77 port 41313
+Sep 17 02:24:14 bastion01 sshd[22090]: Failed password for invalid user admin from 203.0.113.77 port 41313 ssh2
+Sep 17 02:24:16 bastion01 sshd[22091]: Invalid user admin from 203.0.113.77 port 61827
+Sep 17 02:24:16 bastion01 sshd[22091]: Failed password for invalid user admin from 203.0.113.77 port 61827 ssh2
+Sep 17 02:24:20 bastion01 sshd[22092]: Failed password for ubuntu from 203.0.113.77 port 60726 ssh2
+Sep 17 02:24:25 bastion01 sshd[22093]: Failed password for deploy from 203.0.113.77 port 61702 ssh2
+Sep 17 02:24:28 bastion01 sshd[22094]: Invalid user postgres from 203.0.113.77 port 49581
+Sep 17 02:24:28 bastion01 sshd[22094]: Failed password for invalid user postgres from 203.0.113.77 port 49581 ssh2
+Sep 17 02:24:32 bastion01 sshd[22095]: Failed password for root from 203.0.113.77 port 58950 ssh2
+Sep 17 02:24:36 bastion01 sshd[22096]: Invalid user user from 203.0.113.77 port 38487
+Sep 17 02:24:36 bastion01 sshd[22096]: Failed password for invalid user user from 203.0.113.77 port 38487 ssh2
+Sep 17 02:24:38 bastion01 sshd[22097]: Invalid user ftpuser from 203.0.113.77 port 32328
+Sep 17 02:24:38 bastion01 sshd[22097]: Failed password for invalid user ftpuser from 203.0.113.77 port 32328 ssh2
+Sep 17 02:24:43 bastion01 sshd[22098]: Invalid user user from 203.0.113.77 port 56405
+Sep 17 02:24:43 bastion01 sshd[22098]: Failed password for invalid user user from 203.0.113.77 port 56405 ssh2
+Sep 17 02:24:46 bastion01 sshd[22099]: Invalid user admin from 203.0.113.77 port 48087
+Sep 17 02:24:46 bastion01 sshd[22099]: Failed password for invalid user admin from 203.0.113.77 port 48087 ssh2
+Sep 17 02:24:49 bastion01 sshd[22100]: Invalid user jenkins from 203.0.113.77 port 58631
+Sep 17 02:24:49 bastion01 sshd[22100]: Failed password for invalid user jenkins from 203.0.113.77 port 58631 ssh2
+Sep 17 02:24:54 bastion01 sshd[22101]: Invalid user postgres from 203.0.113.77 port 53302
+Sep 17 02:24:54 bastion01 sshd[22101]: Failed password for invalid user postgres from 203.0.113.77 port 53302 ssh2
+Sep 17 02:24:56 bastion01 sshd[22102]: Invalid user postgres from 203.0.113.77 port 52415
+Sep 17 02:24:56 bastion01 sshd[22102]: Failed password for invalid user postgres from 203.0.113.77 port 52415 ssh2
+Sep 17 02:24:59 bastion01 sshd[22103]: Failed password for deploy from 203.0.113.77 port 53379 ssh2
+Sep 17 02:25:02 bastion01 sshd[22104]: Invalid user admin from 203.0.113.77 port 57197
+Sep 17 02:25:02 bastion01 sshd[22104]: Failed password for invalid user admin from 203.0.113.77 port 57197 ssh2
+Sep 17 02:25:07 bastion01 sshd[22105]: Failed password for root from 203.0.113.77 port 32248 ssh2
+Sep 17 02:25:10 bastion01 sshd[22106]: Failed password for root from 203.0.113.77 port 44263 ssh2
+Sep 17 02:25:13 bastion01 sshd[22107]: Invalid user admin from 203.0.113.77 port 60789
+Sep 17 02:25:13 bastion01 sshd[22107]: Failed password for invalid user admin from 203.0.113.77 port 60789 ssh2
+Sep 17 02:25:17 bastion01 sshd[22108]: Invalid user admin from 203.0.113.77 port 46623
+Sep 17 02:25:17 bastion01 sshd[22108]: Failed password for invalid user admin from 203.0.113.77 port 46623 ssh2
+Sep 17 02:25:20 bastion01 sshd[22109]: Invalid user postgres from 203.0.113.77 port 55493
+Sep 17 02:25:20 bastion01 sshd[22109]: Failed password for invalid user postgres from 203.0.113.77 port 55493 ssh2
+Sep 17 02:25:24 bastion01 sshd[22110]: Invalid user postgres from 203.0.113.77 port 63213
+Sep 17 02:25:24 bastion01 sshd[22110]: Failed password for invalid user postgres from 203.0.113.77 port 63213 ssh2
+Sep 17 02:25:27 bastion01 sshd[22111]: Invalid user ftpuser from 203.0.113.77 port 43399
+Sep 17 02:25:27 bastion01 sshd[22111]: Failed password for invalid user ftpuser from 203.0.113.77 port 43399 ssh2
+Sep 17 02:25:30 bastion01 sshd[22112]: Failed password for root from 203.0.113.77 port 55268 ssh2
+Sep 17 02:25:33 bastion01 sshd[22113]: Failed password for root from 203.0.113.77 port 37148 ssh2
+Sep 17 02:25:38 bastion01 sshd[22114]: Invalid user admin from 203.0.113.77 port 44606
+Sep 17 02:25:38 bastion01 sshd[22114]: Failed password for invalid user admin from 203.0.113.77 port 44606 ssh2
+Sep 17 02:25:41 bastion01 sshd[22115]: Invalid user postgres from 203.0.113.77 port 47645
+Sep 17 02:25:41 bastion01 sshd[22115]: Failed password for invalid user postgres from 203.0.113.77 port 47645 ssh2
+Sep 17 02:25:43 bastion01 sshd[22116]: Invalid user admin from 203.0.113.77 port 46155
+Sep 17 02:25:43 bastion01 sshd[22116]: Failed password for invalid user admin from 203.0.113.77 port 46155 ssh2
+Sep 17 02:25:45 bastion01 sshd[22117]: Invalid user admin from 203.0.113.77 port 45753
+Sep 17 02:25:45 bastion01 sshd[22117]: Failed password for invalid user admin from 203.0.113.77 port 45753 ssh2
+Sep 17 02:25:47 bastion01 sshd[22118]: Invalid user admin from 203.0.113.77 port 50906
+Sep 17 02:25:47 bastion01 sshd[22118]: Failed password for invalid user admin from 203.0.113.77 port 50906 ssh2
+Sep 17 02:25:50 bastion01 sshd[22119]: Invalid user oracle from 203.0.113.77 port 43671
+Sep 17 02:25:50 bastion01 sshd[22119]: Failed password for invalid user oracle from 203.0.113.77 port 43671 ssh2
+Sep 17 02:25:55 bastion01 sshd[22120]: Invalid user test from 203.0.113.77 port 60095
+Sep 17 02:25:55 bastion01 sshd[22120]: Failed password for invalid user test from 203.0.113.77 port 60095 ssh2
+Sep 17 02:25:57 bastion01 sshd[22121]: Invalid user admin from 203.0.113.77 port 36278
+Sep 17 02:25:57 bastion01 sshd[22121]: Failed password for invalid user admin from 203.0.113.77 port 36278 ssh2
+Sep 17 02:26:00 bastion01 sshd[22122]: Invalid user admin from 203.0.113.77 port 54958
+Sep 17 02:26:00 bastion01 sshd[22122]: Failed password for invalid user admin from 203.0.113.77 port 54958 ssh2
+Sep 17 02:26:02 bastion01 sshd[22123]: Invalid user admin from 203.0.113.77 port 54617
+Sep 17 02:26:02 bastion01 sshd[22123]: Failed password for invalid user admin from 203.0.113.77 port 54617 ssh2
+Sep 17 02:26:05 bastion01 sshd[22124]: Invalid user postgres from 203.0.113.77 port 60945
+Sep 17 02:26:05 bastion01 sshd[22124]: Failed password for invalid user postgres from 203.0.113.77 port 60945 ssh2
+Sep 17 02:26:07 bastion01 sshd[22125]: Failed password for deploy from 203.0.113.77 port 48730 ssh2
+Sep 17 02:26:10 bastion01 sshd[22126]: Invalid user admin from 203.0.113.77 port 37707
+Sep 17 02:26:10 bastion01 sshd[22126]: Failed password for invalid user admin from 203.0.113.77 port 37707 ssh2
+Sep 17 02:26:13 bastion01 sshd[22127]: Failed password for root from 203.0.113.77 port 59612 ssh2
+Sep 17 02:26:17 bastion01 sshd[22128]: Failed password for root from 203.0.113.77 port 51989 ssh2
+Sep 17 02:26:20 bastion01 sshd[22129]: Failed password for root from 203.0.113.77 port 60464 ssh2
+Sep 17 02:26:25 bastion01 sshd[22130]: Invalid user test from 203.0.113.77 port 36794
+Sep 17 02:26:25 bastion01 sshd[22130]: Failed password for invalid user test from 203.0.113.77 port 36794 ssh2
+Sep 17 02:26:29 bastion01 sshd[22131]: Invalid user admin from 203.0.113.77 port 36687
+Sep 17 02:26:29 bastion01 sshd[22131]: Failed password for invalid user admin from 203.0.113.77 port 36687 ssh2
+Sep 17 02:26:33 bastion01 sshd[22132]: Invalid user admin from 203.0.113.77 port 61747
+Sep 17 02:26:33 bastion01 sshd[22132]: Failed password for invalid user admin from 203.0.113.77 port 61747 ssh2
+Sep 17 02:26:38 bastion01 sshd[22133]: Failed password for root from 203.0.113.77 port 35675 ssh2
+Sep 17 02:26:42 bastion01 sshd[22134]: Invalid user admin from 203.0.113.77 port 57745
+Sep 17 02:26:42 bastion01 sshd[22134]: Failed password for invalid user admin from 203.0.113.77 port 57745 ssh2
+Sep 17 02:26:45 bastion01 sshd[22135]: Invalid user ftpuser from 203.0.113.77 port 38544
+Sep 17 02:26:45 bastion01 sshd[22135]: Failed password for invalid user ftpuser from 203.0.113.77 port 38544 ssh2
+Sep 17 02:26:48 bastion01 sshd[22136]: Failed password for root from 203.0.113.77 port 59909 ssh2
+Sep 17 02:26:53 bastion01 sshd[22137]: Failed password for root from 203.0.113.77 port 60893 ssh2
+Sep 17 02:26:55 bastion01 sshd[22138]: Failed password for root from 203.0.113.77 port 47902 ssh2
+Sep 17 02:26:58 bastion01 sshd[22139]: Invalid user admin from 203.0.113.77 port 52263
+Sep 17 02:26:58 bastion01 sshd[22139]: Failed password for invalid user admin from 203.0.113.77 port 52263 ssh2
+Sep 17 02:27:03 bastion01 sshd[22140]: Failed password for root from 203.0.113.77 port 38129 ssh2
+Sep 17 02:27:08 bastion01 sshd[22141]: Invalid user jenkins from 203.0.113.77 port 32285
+Sep 17 02:27:08 bastion01 sshd[22141]: Failed password for invalid user jenkins from 203.0.113.77 port 32285 ssh2
+Sep 17 02:27:11 bastion01 sshd[22142]: Failed password for deploy from 203.0.113.77 port 63203 ssh2
+Sep 17 02:27:14 bastion01 sshd[22143]: Failed password for root from 203.0.113.77 port 52140 ssh2
+Sep 17 02:27:18 bastion01 sshd[22144]: Invalid user test from 203.0.113.77 port 36853
+Sep 17 02:27:18 bastion01 sshd[22144]: Failed password for invalid user test from 203.0.113.77 port 36853 ssh2
+Sep 17 02:27:20 bastion01 sshd[22145]: Failed password for deploy from 203.0.113.77 port 34272 ssh2
+Sep 17 02:27:24 bastion01 sshd[22146]: Invalid user admin from 203.0.113.77 port 63597
+Sep 17 02:27:24 bastion01 sshd[22146]: Failed password for invalid user admin from 203.0.113.77 port 63597 ssh2
+Sep 17 02:27:27 bastion01 sshd[22147]: Failed password for root from 203.0.113.77 port 55646 ssh2
+Sep 17 02:27:30 bastion01 sshd[22148]: Failed password for root from 203.0.113.77 port 50335 ssh2
+Sep 17 02:27:33 bastion01 sshd[22149]: Failed password for root from 203.0.113.77 port 44167 ssh2
+Sep 17 02:27:36 bastion01 sshd[22150]: Invalid user git from 203.0.113.77 port 58124
+Sep 17 02:27:36 bastion01 sshd[22150]: Failed password for invalid user git from 203.0.113.77 port 58124 ssh2
+Sep 17 02:27:40 bastion01 sshd[22151]: Invalid user admin from 203.0.113.77 port 39223
+Sep 17 02:27:40 bastion01 sshd[22151]: Failed password for invalid user admin from 203.0.113.77 port 39223 ssh2
+Sep 17 02:27:43 bastion01 sshd[22152]: Failed password for root from 203.0.113.77 port 59568 ssh2
+Sep 17 02:27:46 bastion01 sshd[22153]: Invalid user git from 203.0.113.77 port 58115
+Sep 17 02:27:46 bastion01 sshd[22153]: Failed password for invalid user git from 203.0.113.77 port 58115 ssh2
+Sep 17 02:27:48 bastion01 sshd[22154]: Failed password for root from 203.0.113.77 port 44514 ssh2
+Sep 17 02:27:52 bastion01 sshd[22155]: Invalid user ftpuser from 203.0.113.77 port 64110
+Sep 17 02:27:52 bastion01 sshd[22155]: Failed password for invalid user ftpuser from 203.0.113.77 port 64110 ssh2
+Sep 17 02:27:55 bastion01 sshd[22156]: Invalid user admin from 203.0.113.77 port 39377
+Sep 17 02:27:55 bastion01 sshd[22156]: Failed password for invalid user admin from 203.0.113.77 port 39377 ssh2
+Sep 17 02:27:57 bastion01 sshd[22157]: Invalid user guest from 203.0.113.77 port 53282
+Sep 17 02:27:57 bastion01 sshd[22157]: Failed password for invalid user guest from 203.0.113.77 port 53282 ssh2
+Sep 17 02:28:01 bastion01 sshd[22158]: Invalid user guest from 203.0.113.77 port 43743
+Sep 17 02:28:01 bastion01 sshd[22158]: Failed password for invalid user guest from 203.0.113.77 port 43743 ssh2
+Sep 17 02:28:03 bastion01 sshd[22159]: Failed password for root from 203.0.113.77 port 53707 ssh2
+Sep 17 02:28:06 bastion01 sshd[22160]: Failed password for root from 203.0.113.77 port 31344 ssh2
+Sep 17 02:28:11 bastion01 sshd[22161]: Invalid user admin from 203.0.113.77 port 36354
+Sep 17 02:28:11 bastion01 sshd[22161]: Failed password for invalid user admin from 203.0.113.77 port 36354 ssh2
+Sep 17 02:28:14 bastion01 sshd[22162]: Failed password for deploy from 203.0.113.77 port 50944 ssh2
+Sep 17 02:28:17 bastion01 sshd[22163]: Invalid user git from 203.0.113.77 port 49581
+Sep 17 02:28:17 bastion01 sshd[22163]: Failed password for invalid user git from 203.0.113.77 port 49581 ssh2
+Sep 17 02:28:21 bastion01 sshd[22164]: Invalid user jenkins from 203.0.113.77 port 39100
+Sep 17 02:28:21 bastion01 sshd[22164]: Failed password for invalid user jenkins from 203.0.113.77 port 39100 ssh2
+Sep 17 02:28:23 bastion01 sshd[22165]: Failed password for root from 203.0.113.77 port 40791 ssh2
+Sep 17 02:28:28 bastion01 sshd[22166]: Failed password for root from 203.0.113.77 port 39389 ssh2
+Sep 17 02:28:31 bastion01 sshd[22167]: Invalid user test from 203.0.113.77 port 41575
+Sep 17 02:28:31 bastion01 sshd[22167]: Failed password for invalid user test from 203.0.113.77 port 41575 ssh2
+Sep 17 02:28:35 bastion01 sshd[22168]: Invalid user test from 203.0.113.77 port 42318
+Sep 17 02:28:35 bastion01 sshd[22168]: Failed password for invalid user test from 203.0.113.77 port 42318 ssh2
+Sep 17 02:28:37 bastion01 sshd[22169]: Invalid user admin from 203.0.113.77 port 50036
+Sep 17 02:28:37 bastion01 sshd[22169]: Failed password for invalid user admin from 203.0.113.77 port 50036 ssh2
+Sep 17 02:28:40 bastion01 sshd[22170]: Invalid user oracle from 203.0.113.77 port 30453
+Sep 17 02:28:40 bastion01 sshd[22170]: Failed password for invalid user oracle from 203.0.113.77 port 30453 ssh2
+Sep 17 02:28:45 bastion01 sshd[22171]: Invalid user guest from 203.0.113.77 port 38794
+Sep 17 02:28:45 bastion01 sshd[22171]: Failed password for invalid user guest from 203.0.113.77 port 38794 ssh2
+Sep 17 02:28:49 bastion01 sshd[22172]: Invalid user test from 203.0.113.77 port 50353
+Sep 17 02:28:49 bastion01 sshd[22172]: Failed password for invalid user test from 203.0.113.77 port 50353 ssh2
+Sep 17 02:28:52 bastion01 sshd[22173]: Invalid user admin from 203.0.113.77 port 53881
+Sep 17 02:28:52 bastion01 sshd[22173]: Failed password for invalid user admin from 203.0.113.77 port 53881 ssh2
+Sep 17 02:28:55 bastion01 sshd[22174]: Invalid user postgres from 203.0.113.77 port 56588
+Sep 17 02:28:55 bastion01 sshd[22174]: Failed password for invalid user postgres from 203.0.113.77 port 56588 ssh2
+Sep 17 02:29:00 bastion01 sshd[22175]: Invalid user oracle from 203.0.113.77 port 48655
+Sep 17 02:29:00 bastion01 sshd[22175]: Failed password for invalid user oracle from 203.0.113.77 port 48655 ssh2
+Sep 17 02:29:05 bastion01 sshd[22176]: Invalid user admin from 203.0.113.77 port 52563
+Sep 17 02:29:05 bastion01 sshd[22176]: Failed password for invalid user admin from 203.0.113.77 port 52563 ssh2
+Sep 17 02:29:07 bastion01 sshd[22177]: Invalid user oracle from 203.0.113.77 port 40956
+Sep 17 02:29:07 bastion01 sshd[22177]: Failed password for invalid user oracle from 203.0.113.77 port 40956 ssh2
+Sep 17 02:29:11 bastion01 sshd[22178]: Failed password for deploy from 203.0.113.77 port 38317 ssh2
+Sep 17 02:29:15 bastion01 sshd[22179]: Failed password for deploy from 203.0.113.77 port 31839 ssh2
+Sep 17 02:29:18 bastion01 sshd[22180]: Invalid user admin from 203.0.113.77 port 48753
+Sep 17 02:29:18 bastion01 sshd[22180]: Failed password for invalid user admin from 203.0.113.77 port 48753 ssh2
+Sep 17 02:29:20 bastion01 sshd[22181]: Invalid user admin from 203.0.113.77 port 64290
+Sep 17 02:29:20 bastion01 sshd[22181]: Failed password for invalid user admin from 203.0.113.77 port 64290 ssh2
+Sep 17 02:29:25 bastion01 sshd[22182]: Invalid user test from 203.0.113.77 port 52007
+Sep 17 02:29:25 bastion01 sshd[22182]: Failed password for invalid user test from 203.0.113.77 port 52007 ssh2
+Sep 17 02:29:30 bastion01 sshd[22183]: Failed password for deploy from 203.0.113.77 port 40132 ssh2
+Sep 17 02:29:33 bastion01 sshd[22184]: Invalid user admin from 203.0.113.77 port 41929
+Sep 17 02:29:33 bastion01 sshd[22184]: Failed password for invalid user admin from 203.0.113.77 port 41929 ssh2
+Sep 17 02:29:36 bastion01 sshd[22185]: Failed password for root from 203.0.113.77 port 61808 ssh2
+Sep 17 02:29:40 bastion01 sshd[22186]: Failed password for root from 203.0.113.77 port 32872 ssh2
+Sep 17 02:29:43 bastion01 sshd[22187]: Failed password for root from 203.0.113.77 port 56047 ssh2
+Sep 17 02:29:48 bastion01 sshd[22188]: Invalid user admin from 203.0.113.77 port 51733
+Sep 17 02:29:48 bastion01 sshd[22188]: Failed password for invalid user admin from 203.0.113.77 port 51733 ssh2
+Sep 17 02:29:51 bastion01 sshd[22189]: Invalid user postgres from 203.0.113.77 port 43309
+Sep 17 02:29:51 bastion01 sshd[22189]: Failed password for invalid user postgres from 203.0.113.77 port 43309 ssh2
+Sep 17 02:29:56 bastion01 sshd[22190]: Failed password for deploy from 203.0.113.77 port 45292 ssh2
+Sep 17 02:29:59 bastion01 sshd[22191]: Failed password for ubuntu from 203.0.113.77 port 61622 ssh2
+Sep 17 02:30:04 bastion01 sshd[22192]: Invalid user jenkins from 203.0.113.77 port 60908
+Sep 17 02:30:04 bastion01 sshd[22192]: Failed password for invalid user jenkins from 203.0.113.77 port 60908 ssh2
+Sep 17 02:30:06 bastion01 sshd[22193]: Failed password for root from 203.0.113.77 port 46741 ssh2
+Sep 17 02:30:11 bastion01 sshd[22194]: Invalid user oracle from 203.0.113.77 port 60995
+Sep 17 02:30:11 bastion01 sshd[22194]: Failed password for invalid user oracle from 203.0.113.77 port 60995 ssh2
+Sep 17 02:30:15 bastion01 sshd[22195]: Failed password for ubuntu from 203.0.113.77 port 60829 ssh2
+Sep 17 02:30:20 bastion01 sshd[22196]: Invalid user guest from 203.0.113.77 port 42067
+Sep 17 02:30:20 bastion01 sshd[22196]: Failed password for invalid user guest from 203.0.113.77 port 42067 ssh2
+Sep 17 02:30:24 bastion01 sshd[22197]: Invalid user jenkins from 203.0.113.77 port 50760
+Sep 17 02:30:24 bastion01 sshd[22197]: Failed password for invalid user jenkins from 203.0.113.77 port 50760 ssh2
+Sep 17 02:30:28 bastion01 sshd[22198]: Invalid user admin from 203.0.113.77 port 33405
+Sep 17 02:30:28 bastion01 sshd[22198]: Failed password for invalid user admin from 203.0.113.77 port 33405 ssh2
+Sep 17 02:30:30 bastion01 sshd[22199]: Failed password for deploy from 203.0.113.77 port 45304 ssh2
+Sep 17 02:30:33 bastion01 sshd[22200]: Invalid user postgres from 203.0.113.77 port 40279
+Sep 17 02:30:33 bastion01 sshd[22200]: Failed password for invalid user postgres from 203.0.113.77 port 40279 ssh2
+Sep 17 02:30:38 bastion01 sshd[22201]: Invalid user git from 203.0.113.77 port 63071
+Sep 17 02:30:38 bastion01 sshd[22201]: Failed password for invalid user git from 203.0.113.77 port 63071 ssh2
+Sep 17 02:30:41 bastion01 sshd[22202]: Invalid user jenkins from 203.0.113.77 port 46030
+Sep 17 02:30:41 bastion01 sshd[22202]: Failed password for invalid user jenkins from 203.0.113.77 port 46030 ssh2
+Sep 17 02:30:46 bastion01 sshd[22203]: Invalid user admin from 203.0.113.77 port 48596
+Sep 17 02:30:46 bastion01 sshd[22203]: Failed password for invalid user admin from 203.0.113.77 port 48596 ssh2
+Sep 17 02:30:49 bastion01 sshd[22204]: Failed password for deploy from 203.0.113.77 port 58218 ssh2
+Sep 17 02:30:52 bastion01 sshd[22205]: Invalid user jenkins from 203.0.113.77 port 49955
+Sep 17 02:30:52 bastion01 sshd[22205]: Failed password for invalid user jenkins from 203.0.113.77 port 49955 ssh2
+Sep 17 02:30:57 bastion01 sshd[22206]: Invalid user user from 203.0.113.77 port 43704
+Sep 17 02:30:57 bastion01 sshd[22206]: Failed password for invalid user user from 203.0.113.77 port 43704 ssh2
+Sep 17 02:31:02 bastion01 sshd[22207]: Failed password for ubuntu from 203.0.113.77 port 61683 ssh2
+Sep 17 02:31:05 bastion01 sshd[22208]: Failed password for root from 203.0.113.77 port 40834 ssh2
+Sep 17 02:31:08 bastion01 sshd[22209]: Failed password for deploy from 203.0.113.77 port 45516 ssh2
+Sep 17 02:31:13 bastion01 sshd[22210]: Failed password for deploy from 203.0.113.77 port 32665 ssh2
+Sep 17 02:31:15 bastion01 sshd[22211]: Failed password for deploy from 203.0.113.77 port 42484 ssh2
+Sep 17 02:31:18 bastion01 sshd[22212]: Failed password for root from 203.0.113.77 port 30506 ssh2
+Sep 17 02:31:20 bastion01 sshd[22213]: Invalid user admin from 203.0.113.77 port 33940
+Sep 17 02:31:20 bastion01 sshd[22213]: Failed password for invalid user admin from 203.0.113.77 port 33940 ssh2
+Sep 17 02:31:24 bastion01 sshd[22214]: Invalid user admin from 203.0.113.77 port 47588
+Sep 17 02:31:24 bastion01 sshd[22214]: Failed password for invalid user admin from 203.0.113.77 port 47588 ssh2
+Sep 17 02:31:29 bastion01 sshd[22215]: Failed password for deploy from 203.0.113.77 port 50061 ssh2
+Sep 17 02:31:31 bastion01 sshd[22216]: Failed password for root from 203.0.113.77 port 45441 ssh2
+Sep 17 02:31:33 bastion01 sshd[22217]: Invalid user admin from 203.0.113.77 port 36257
+Sep 17 02:31:33 bastion01 sshd[22217]: Failed password for invalid user admin from 203.0.113.77 port 36257 ssh2
+Sep 17 02:31:37 bastion01 sshd[22218]: Failed password for deploy from 203.0.113.77 port 59530 ssh2
+Sep 17 02:31:39 bastion01 sshd[22219]: Failed password for root from 203.0.113.77 port 50881 ssh2
+Sep 17 02:31:42 bastion01 sshd[22220]: Failed password for ubuntu from 203.0.113.77 port 63692 ssh2
+Sep 17 02:31:46 bastion01 sshd[22221]: Invalid user admin from 203.0.113.77 port 57476
+Sep 17 02:31:46 bastion01 sshd[22221]: Failed password for invalid user admin from 203.0.113.77 port 57476 ssh2
+Sep 17 02:31:49 bastion01 sshd[22222]: Invalid user admin from 203.0.113.77 port 45521
+Sep 17 02:31:49 bastion01 sshd[22222]: Failed password for invalid user admin from 203.0.113.77 port 45521 ssh2
+Sep 17 02:31:53 bastion01 sshd[22223]: Failed password for deploy from 203.0.113.77 port 60891 ssh2
+Sep 17 02:31:56 bastion01 sshd[22224]: Invalid user git from 203.0.113.77 port 61778
+Sep 17 02:31:56 bastion01 sshd[22224]: Failed password for invalid user git from 203.0.113.77 port 61778 ssh2
+Sep 17 02:31:59 bastion01 sshd[22225]: Failed password for root from 203.0.113.77 port 56483 ssh2
+Sep 17 02:32:02 bastion01 sshd[22226]: Invalid user test from 203.0.113.77 port 46346
+Sep 17 02:32:02 bastion01 sshd[22226]: Failed password for invalid user test from 203.0.113.77 port 46346 ssh2
+Sep 17 02:32:06 bastion01 sshd[22227]: Failed password for root from 203.0.113.77 port 55421 ssh2
+Sep 17 02:32:09 bastion01 sshd[22228]: Invalid user test from 203.0.113.77 port 51258
+Sep 17 02:32:09 bastion01 sshd[22228]: Failed password for invalid user test from 203.0.113.77 port 51258 ssh2
+Sep 17 02:32:14 bastion01 sshd[22229]: Failed password for root from 203.0.113.77 port 53393 ssh2
+Sep 17 02:32:18 bastion01 sshd[22230]: Invalid user admin from 203.0.113.77 port 56858
+Sep 17 02:32:18 bastion01 sshd[22230]: Failed password for invalid user admin from 203.0.113.77 port 56858 ssh2
+Sep 17 02:32:21 bastion01 sshd[22231]: Failed password for ubuntu from 203.0.113.77 port 60008 ssh2
+Sep 17 02:32:23 bastion01 sshd[22232]: Invalid user admin from 203.0.113.77 port 42732
+Sep 17 02:32:23 bastion01 sshd[22232]: Failed password for invalid user admin from 203.0.113.77 port 42732 ssh2
+Sep 17 02:32:26 bastion01 sshd[22233]: Invalid user admin from 203.0.113.77 port 40652
+Sep 17 02:32:26 bastion01 sshd[22233]: Failed password for invalid user admin from 203.0.113.77 port 40652 ssh2
+Sep 17 02:32:29 bastion01 sshd[22234]: Invalid user test from 203.0.113.77 port 31921
+Sep 17 02:32:29 bastion01 sshd[22234]: Failed password for invalid user test from 203.0.113.77 port 31921 ssh2
+Sep 17 02:32:32 bastion01 sshd[22235]: Failed password for ubuntu from 203.0.113.77 port 30439 ssh2
+Sep 17 02:32:36 bastion01 sshd[22236]: Invalid user postgres from 203.0.113.77 port 51967
+Sep 17 02:32:36 bastion01 sshd[22236]: Failed password for invalid user postgres from 203.0.113.77 port 51967 ssh2
+Sep 17 02:32:39 bastion01 sshd[22237]: Invalid user test from 203.0.113.77 port 59049
+Sep 17 02:32:39 bastion01 sshd[22237]: Failed password for invalid user test from 203.0.113.77 port 59049 ssh2
+Sep 17 02:32:41 bastion01 sshd[22238]: Invalid user git from 203.0.113.77 port 30335
+Sep 17 02:32:41 bastion01 sshd[22238]: Failed password for invalid user git from 203.0.113.77 port 30335 ssh2
+Sep 17 02:32:44 bastion01 sshd[22239]: Invalid user admin from 203.0.113.77 port 39578
+Sep 17 02:32:44 bastion01 sshd[22239]: Failed password for invalid user admin from 203.0.113.77 port 39578 ssh2
+Sep 17 02:32:46 bastion01 sshd[22240]: Invalid user admin from 203.0.113.77 port 53250
+Sep 17 02:32:46 bastion01 sshd[22240]: Failed password for invalid user admin from 203.0.113.77 port 53250 ssh2
+Sep 17 02:32:48 bastion01 sshd[22241]: Invalid user admin from 203.0.113.77 port 43610
+Sep 17 02:32:48 bastion01 sshd[22241]: Failed password for invalid user admin from 203.0.113.77 port 43610 ssh2
+Sep 17 02:32:51 bastion01 sshd[22242]: Invalid user admin from 203.0.113.77 port 56777
+Sep 17 02:32:51 bastion01 sshd[22242]: Failed password for invalid user admin from 203.0.113.77 port 56777 ssh2
+Sep 17 02:32:54 bastion01 sshd[22243]: Invalid user admin from 203.0.113.77 port 59353
+Sep 17 02:32:54 bastion01 sshd[22243]: Failed password for invalid user admin from 203.0.113.77 port 59353 ssh2
+Sep 17 02:32:58 bastion01 sshd[22244]: Invalid user admin from 203.0.113.77 port 41429
+Sep 17 02:32:58 bastion01 sshd[22244]: Failed password for invalid user admin from 203.0.113.77 port 41429 ssh2
+Sep 17 02:33:00 bastion01 sshd[22245]: Invalid user admin from 203.0.113.77 port 48336
+Sep 17 02:33:00 bastion01 sshd[22245]: Failed password for invalid user admin from 203.0.113.77 port 48336 ssh2
+Sep 17 02:33:04 bastion01 sshd[22246]: Invalid user postgres from 203.0.113.77 port 52130
+Sep 17 02:33:04 bastion01 sshd[22246]: Failed password for invalid user postgres from 203.0.113.77 port 52130 ssh2
+Sep 17 02:33:06 bastion01 sshd[22247]: Failed password for root from 203.0.113.77 port 51760 ssh2
+Sep 17 02:33:09 bastion01 sshd[22248]: Failed password for root from 203.0.113.77 port 64069 ssh2
+Sep 17 02:33:13 bastion01 sshd[22249]: Invalid user guest from 203.0.113.77 port 59337
+Sep 17 02:33:13 bastion01 sshd[22249]: Failed password for invalid user guest from 203.0.113.77 port 59337 ssh2
+Sep 17 02:33:16 bastion01 sshd[22250]: Invalid user ftpuser from 203.0.113.77 port 40280
+Sep 17 02:33:16 bastion01 sshd[22250]: Failed password for invalid user ftpuser from 203.0.113.77 port 40280 ssh2
+Sep 17 02:33:21 bastion01 sshd[22251]: Invalid user test from 203.0.113.77 port 54120
+Sep 17 02:33:21 bastion01 sshd[22251]: Failed password for invalid user test from 203.0.113.77 port 54120 ssh2
+Sep 17 02:33:24 bastion01 sshd[22252]: Invalid user user from 203.0.113.77 port 56676
+Sep 17 02:33:24 bastion01 sshd[22252]: Failed password for invalid user user from 203.0.113.77 port 56676 ssh2
+Sep 17 02:33:27 bastion01 sshd[22253]: Failed password for root from 203.0.113.77 port 64173 ssh2
+Sep 17 02:33:29 bastion01 sshd[22254]: Invalid user git from 203.0.113.77 port 36321
+Sep 17 02:33:29 bastion01 sshd[22254]: Failed password for invalid user git from 203.0.113.77 port 36321 ssh2
+Sep 17 02:33:34 bastion01 sshd[22255]: Invalid user postgres from 203.0.113.77 port 54709
+Sep 17 02:33:34 bastion01 sshd[22255]: Failed password for invalid user postgres from 203.0.113.77 port 54709 ssh2
+Sep 17 02:33:36 bastion01 sshd[22256]: Invalid user admin from 203.0.113.77 port 34863
+Sep 17 02:33:36 bastion01 sshd[22256]: Failed password for invalid user admin from 203.0.113.77 port 34863 ssh2
+Sep 17 02:33:39 bastion01 sshd[22257]: Invalid user postgres from 203.0.113.77 port 52703
+Sep 17 02:33:39 bastion01 sshd[22257]: Failed password for invalid user postgres from 203.0.113.77 port 52703 ssh2
+Sep 17 02:33:42 bastion01 sshd[22258]: Invalid user test from 203.0.113.77 port 48211
+Sep 17 02:33:42 bastion01 sshd[22258]: Failed password for invalid user test from 203.0.113.77 port 48211 ssh2
+Sep 17 02:33:44 bastion01 sshd[22259]: Invalid user test from 203.0.113.77 port 33139
+Sep 17 02:33:44 bastion01 sshd[22259]: Failed password for invalid user test from 203.0.113.77 port 33139 ssh2
+Sep 17 02:33:47 bastion01 sshd[22260]: Failed password for root from 203.0.113.77 port 64455 ssh2
+Sep 17 02:33:49 bastion01 sshd[22261]: Failed password for deploy from 203.0.113.77 port 56747 ssh2
+Sep 17 02:33:54 bastion01 sshd[22262]: Failed password for root from 203.0.113.77 port 46306 ssh2
+Sep 17 02:33:58 bastion01 sshd[22263]: Failed password for deploy from 203.0.113.77 port 42024 ssh2
+Sep 17 02:34:03 bastion01 sshd[22264]: Invalid user jenkins from 203.0.113.77 port 58579
+Sep 17 02:34:03 bastion01 sshd[22264]: Failed password for invalid user jenkins from 203.0.113.77 port 58579 ssh2
+Sep 17 02:34:07 bastion01 sshd[22265]: Failed password for ubuntu from 203.0.113.77 port 54293 ssh2
+Sep 17 02:34:09 bastion01 sshd[22266]: Invalid user test from 203.0.113.77 port 30069
+Sep 17 02:34:09 bastion01 sshd[22266]: Failed password for invalid user test from 203.0.113.77 port 30069 ssh2
+Sep 17 02:34:13 bastion01 sshd[22267]: Failed password for root from 203.0.113.77 port 48786 ssh2
+Sep 17 02:34:16 bastion01 sshd[22268]: Invalid user test from 203.0.113.77 port 30111
+Sep 17 02:34:16 bastion01 sshd[22268]: Failed password for invalid user test from 203.0.113.77 port 30111 ssh2
+Sep 17 02:34:21 bastion01 sshd[22269]: Failed password for ubuntu from 203.0.113.77 port 39764 ssh2
+Sep 17 02:34:24 bastion01 sshd[22270]: Failed password for root from 203.0.113.77 port 41175 ssh2
+Sep 17 02:34:29 bastion01 sshd[22271]: Failed password for deploy from 203.0.113.77 port 51357 ssh2
+Sep 17 02:34:34 bastion01 sshd[22272]: Invalid user guest from 203.0.113.77 port 60167
+Sep 17 02:34:34 bastion01 sshd[22272]: Failed password for invalid user guest from 203.0.113.77 port 60167 ssh2
+Sep 17 02:34:39 bastion01 sshd[22273]: Failed password for root from 203.0.113.77 port 41452 ssh2
+Sep 17 02:34:44 bastion01 sshd[22274]: Failed password for root from 203.0.113.77 port 38886 ssh2
+Sep 17 02:34:51 bastion01 sshd[22275]: Accepted password for deploy from 203.0.113.77 port 51522 ssh2
+Sep 17 02:34:51 bastion01 sshd[22275]: pam_unix(sshd:session): session opened for user deploy by (uid=0)
+Sep 17 02:35:29 bastion01 sudo:   deploy : TTY=pts/3 ; PWD=/home/deploy ; USER=root ; COMMAND=/usr/bin/id
+Sep 17 02:35:52 bastion01 sudo:   deploy : TTY=pts/3 ; PWD=/home/deploy ; USER=root ; COMMAND=/bin/cat /etc/shadow
+Sep 17 02:36:26 bastion01 sudo:   deploy : TTY=pts/3 ; PWD=/home/deploy ; USER=root ; COMMAND=/usr/sbin/useradd -m -s /bin/bash support2
+Sep 17 02:37:01 bastion01 sudo:   deploy : TTY=pts/3 ; PWD=/home/deploy ; USER=root ; COMMAND=/usr/bin/passwd support2
+Sep 17 02:37:42 bastion01 sudo:   deploy : TTY=pts/3 ; PWD=/home/deploy ; USER=root ; COMMAND=/usr/bin/crontab -l
+Sep 17 02:41:41 bastion01 sshd[22275]: pam_unix(sshd:session): session closed for user deploy
+Sep 17 08:40:46 bastion01 sshd[20959]: Accepted publickey for deploy from 10.20.1.15 port 49337 ssh2: RSA SHA256:1L4MHW6BY60AA11GR8EE6CQ9
+Sep 17 08:40:46 bastion01 sshd[20959]: pam_unix(sshd:session): session opened for user deploy by (uid=0)
+Sep 17 08:45:59 bastion01 sudo:   deploy : TTY=pts/1 ; PWD=/home/deploy ; USER=root ; COMMAND=/usr/bin/docker ps
+Sep 17 08:49:27 bastion01 sudo:   deploy : TTY=pts/4 ; PWD=/home/deploy ; USER=root ; COMMAND=/usr/bin/docker ps
+Sep 17 08:52:28 bastion01 sudo:   deploy : TTY=pts/0 ; PWD=/home/deploy ; USER=root ; COMMAND=/usr/bin/docker ps
+Sep 17 09:08:50 bastion01 sshd[20959]: pam_unix(sshd:session): session closed for user deploy
+Sep 17 09:55:41 bastion01 sshd[21054]: Failed password for root from 223.185.43.34 port 44498 ssh2
+Sep 17 10:20:16 bastion01 sshd[21014]: Accepted publickey for deploy from 10.20.1.15 port 47025 ssh2: RSA SHA256:SYKA0L48DCKEZCCRZCDTFK3Q
+Sep 17 10:20:16 bastion01 sshd[21014]: pam_unix(sshd:session): session opened for user deploy by (uid=0)
+Sep 17 10:25:05 bastion01 sudo:   deploy : TTY=pts/4 ; PWD=/home/deploy ; USER=root ; COMMAND=/usr/bin/journalctl -u payment-service --since today
+Sep 17 10:50:59 bastion01 sshd[21014]: pam_unix(sshd:session): session closed for user deploy
+Sep 17 11:11:45 bastion01 sshd[20983]: Accepted publickey for devops from 10.20.1.22 port 63754 ssh2: RSA SHA256:EYWRWDXPRHWWJQYG39UE7NMW
+Sep 17 11:11:45 bastion01 sshd[20983]: pam_unix(sshd:session): session opened for user devops by (uid=0)
+Sep 17 11:14:58 bastion01 sudo:   devops : TTY=pts/3 ; PWD=/home/devops ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx
+Sep 17 11:18:30 bastion01 sudo:   devops : TTY=pts/4 ; PWD=/home/devops ; USER=root ; COMMAND=/usr/bin/docker ps
+Sep 17 11:22:44 bastion01 sudo:   devops : TTY=pts/3 ; PWD=/home/devops ; USER=root ; COMMAND=/usr/bin/systemctl status order-service
+Sep 17 11:54:31 bastion01 sshd[20983]: pam_unix(sshd:session): session closed for user devops
+Sep 17 12:05:45 bastion01 sshd[20883]: Accepted publickey for devops from 10.20.1.22 port 52052 ssh2: RSA SHA256:NX4DAY9V5Z9HUKYAAXNUL9VR
+Sep 17 12:05:45 bastion01 sshd[20883]: pam_unix(sshd:session): session opened for user devops by (uid=0)
+Sep 17 12:07:38 bastion01 sudo:   devops : TTY=pts/3 ; PWD=/home/devops ; USER=root ; COMMAND=/usr/bin/journalctl -u payment-service --since today
+Sep 17 12:09:20 bastion01 sudo:   devops : TTY=pts/3 ; PWD=/home/devops ; USER=root ; COMMAND=/usr/bin/journalctl -u payment-service --since today
+Sep 17 12:13:28 bastion01 sudo:   devops : TTY=pts/0 ; PWD=/home/devops ; USER=root ; COMMAND=/usr/bin/docker ps
+Sep 17 12:47:44 bastion01 sshd[20883]: pam_unix(sshd:session): session closed for user devops
+Sep 17 13:55:11 bastion01 sshd[20936]: Accepted publickey for devops from 10.20.1.22 port 50867 ssh2: RSA SHA256:9Z0TJH9NH7M8RQYWW51SZ143
+Sep 17 13:55:11 bastion01 sshd[20936]: pam_unix(sshd:session): session opened for user devops by (uid=0)
+Sep 17 14:00:26 bastion01 sudo:   devops : TTY=pts/3 ; PWD=/home/devops ; USER=root ; COMMAND=/usr/bin/systemctl status order-service
+Sep 17 14:03:35 bastion01 sshd[20936]: pam_unix(sshd:session): session closed for user devops
+Sep 17 15:30:31 bastion01 sshd[21018]: Failed password for deploy from 10.20.1.15 port 63537 ssh2
+Sep 17 15:30:42 bastion01 sshd[21018]: Accepted publickey for deploy from 10.20.1.15 port 60615 ssh2: RSA SHA256:2XPUV7PQ6QQK0323S5XPA0KG
+Sep 17 15:30:42 bastion01 sshd[21018]: pam_unix(sshd:session): session opened for user deploy by (uid=0)
+Sep 17 15:31:24 bastion01 sudo:   deploy : TTY=pts/3 ; PWD=/home/deploy ; USER=root ; COMMAND=/usr/bin/tail -n 200 /var/log/novamart/order_service.log
+Sep 17 15:35:05 bastion01 sudo:   deploy : TTY=pts/2 ; PWD=/home/deploy ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx
+Sep 17 16:09:44 bastion01 sshd[21018]: pam_unix(sshd:session): session closed for user deploy
+Sep 17 16:40:58 bastion01 sshd[20942]: Accepted publickey for rahul from 10.20.1.44 port 59631 ssh2: RSA SHA256:DX4WMU12QJDRCF7JCL89BYZ9
+Sep 17 16:40:58 bastion01 sshd[20942]: pam_unix(sshd:session): session opened for user rahul by (uid=0)
+Sep 17 16:43:46 bastion01 sudo:   rahul : TTY=pts/4 ; PWD=/home/rahul ; USER=root ; COMMAND=/usr/bin/docker ps
+Sep 17 16:58:40 bastion01 sshd[20949]: Failed password for devops from 10.20.1.22 port 44033 ssh2
+Sep 17 16:58:55 bastion01 sshd[20949]: Accepted publickey for devops from 10.20.1.22 port 57125 ssh2: RSA SHA256:Y87T4N7J4R5Y21ZXD9P23RCW
+Sep 17 16:58:55 bastion01 sshd[20949]: pam_unix(sshd:session): session opened for user devops by (uid=0)
+Sep 17 17:02:48 bastion01 sudo:   devops : TTY=pts/1 ; PWD=/home/devops ; USER=root ; COMMAND=/usr/bin/tail -n 200 /var/log/novamart/order_service.log
+Sep 17 17:09:09 bastion01 sudo:   devops : TTY=pts/0 ; PWD=/home/devops ; USER=root ; COMMAND=/usr/bin/journalctl -u payment-service --since today
+Sep 17 17:15:27 bastion01 sshd[20942]: pam_unix(sshd:session): session closed for user rahul
+Sep 17 17:24:10 bastion01 sshd[20949]: pam_unix(sshd:session): session closed for user devops
+Sep 17 17:47:13 bastion01 sshd[21047]: Accepted publickey for rahul from 10.20.1.44 port 42343 ssh2: RSA SHA256:BCJ75Q0CSTV7WHNHXTWMUTVR
+Sep 17 17:47:13 bastion01 sshd[21047]: pam_unix(sshd:session): session opened for user rahul by (uid=0)
+Sep 17 17:49:29 bastion01 sudo:   rahul : TTY=pts/4 ; PWD=/home/rahul ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx
+Sep 17 18:14:19 bastion01 sshd[21047]: pam_unix(sshd:session): session closed for user rahul
+Sep 17 19:10:12 bastion01 sshd[21061]: Failed password for root from 106.224.233.89 port 54342 ssh2
+Sep 17 20:46:11 bastion01 sshd[20912]: Accepted publickey for devops from 10.20.1.22 port 58094 ssh2: RSA SHA256:652QMUYC76WUFD5TNKJAYWKF
+Sep 17 20:46:11 bastion01 sshd[20912]: pam_unix(sshd:session): session opened for user devops by (uid=0)
+Sep 17 21:03:08 bastion01 sshd[20912]: pam_unix(sshd:session): session closed for user devops
+Sep 17 22:44:33 bastion01 sshd[21068]: Failed password for root from 117.82.236.51 port 63917 ssh2
+Sep 18 02:22:17 bastion01 sshd[21296]: Failed password for root from 223.115.144.70 port 59707 ssh2
+Sep 18 03:31:36 bastion01 sshd[21303]: Failed password for root from 117.67.25.42 port 45919 ssh2
+Sep 18 04:55:03 bastion01 sshd[21289]: Failed password for root from 117.98.10.176 port 39646 ssh2
+Sep 18 09:51:33 bastion01 sshd[21184]: Accepted publickey for deploy from 10.20.1.15 port 46779 ssh2: RSA SHA256:L5P774B2M6H61MQGWVLT0H1B
+Sep 18 09:51:33 bastion01 sshd[21184]: pam_unix(sshd:session): session opened for user deploy by (uid=0)
+Sep 18 09:55:29 bastion01 sudo:   deploy : TTY=pts/1 ; PWD=/home/deploy ; USER=root ; COMMAND=/usr/bin/apt-get update
+Sep 18 10:34:17 bastion01 sshd[21184]: pam_unix(sshd:session): session closed for user deploy
+Sep 18 12:22:08 bastion01 sshd[21129]: Accepted publickey for ananya from 10.20.1.31 port 64424 ssh2: RSA SHA256:SCMAQNDM1TXCG5ZHPAX0DGVZ
+Sep 18 12:22:08 bastion01 sshd[21129]: pam_unix(sshd:session): session opened for user ananya by (uid=0)
+Sep 18 12:24:15 bastion01 sshd[21282]: Accepted publickey for devops from 10.20.1.22 port 48968 ssh2: RSA SHA256:M6XANUN01FVDPNYY6NXGSL8C
+Sep 18 12:24:15 bastion01 sshd[21282]: pam_unix(sshd:session): session opened for user devops by (uid=0)
+Sep 18 12:26:09 bastion01 sudo:   devops : TTY=pts/3 ; PWD=/home/devops ; USER=root ; COMMAND=/usr/bin/docker ps
+Sep 18 12:26:23 bastion01 sudo:   ananya : TTY=pts/1 ; PWD=/home/ananya ; USER=root ; COMMAND=/usr/bin/apt-get update
+Sep 18 12:27:53 bastion01 sudo:   ananya : TTY=pts/4 ; PWD=/home/ananya ; USER=root ; COMMAND=/usr/bin/apt-get update
+Sep 18 12:29:21 bastion01 sudo:   devops : TTY=pts/3 ; PWD=/home/devops ; USER=root ; COMMAND=/usr/bin/docker ps
+Sep 18 12:30:21 bastion01 sudo:   devops : TTY=pts/3 ; PWD=/home/devops ; USER=root ; COMMAND=/usr/bin/apt-get update
+Sep 18 13:03:30 bastion01 sshd[21129]: pam_unix(sshd:session): session closed for user ananya
+Sep 18 13:05:52 bastion01 sshd[21282]: pam_unix(sshd:session): session closed for user devops
+Sep 18 13:16:21 bastion01 sshd[21166]: Failed password for rahul from 10.20.1.44 port 44973 ssh2
+Sep 18 13:16:32 bastion01 sshd[21166]: Accepted publickey for rahul from 10.20.1.44 port 63469 ssh2: RSA SHA256:E8U362PUU5BC9Y2F2J2VM3EF
+Sep 18 13:16:32 bastion01 sshd[21166]: pam_unix(sshd:session): session opened for user rahul by (uid=0)
+Sep 18 13:18:46 bastion01 sudo:   rahul : TTY=pts/1 ; PWD=/home/rahul ; USER=root ; COMMAND=/usr/bin/docker ps
+Sep 18 13:24:36 bastion01 sshd[21242]: Accepted publickey for deploy from 10.20.1.15 port 58782 ssh2: RSA SHA256:WH2FSGBWA63XNNFG5YUY325Y
+Sep 18 13:24:36 bastion01 sshd[21242]: pam_unix(sshd:session): session opened for user deploy by (uid=0)
+Sep 18 13:25:21 bastion01 sudo:   rahul : TTY=pts/0 ; PWD=/home/rahul ; USER=root ; COMMAND=/usr/bin/systemctl status order-service
+Sep 18 13:27:09 bastion01 sudo:   deploy : TTY=pts/2 ; PWD=/home/deploy ; USER=root ; COMMAND=/usr/bin/systemctl status order-service
+Sep 18 13:30:23 bastion01 sudo:   rahul : TTY=pts/1 ; PWD=/home/rahul ; USER=root ; COMMAND=/usr/bin/journalctl -u payment-service --since today
+Sep 18 13:30:51 bastion01 sudo:   deploy : TTY=pts/4 ; PWD=/home/deploy ; USER=root ; COMMAND=/usr/bin/docker ps
+Sep 18 13:37:13 bastion01 sudo:   deploy : TTY=pts/2 ; PWD=/home/deploy ; USER=root ; COMMAND=/usr/bin/journalctl -u payment-service --since today
+Sep 18 13:40:08 bastion01 sshd[21166]: pam_unix(sshd:session): session closed for user rahul
+Sep 18 13:40:52 bastion01 sshd[21242]: pam_unix(sshd:session): session closed for user deploy
+Sep 18 14:58:31 bastion01 sshd[21250]: Accepted publickey for deploy from 10.20.1.15 port 55647 ssh2: RSA SHA256:F672Z6FLA2RKFTP2HRVQNH2C
+Sep 18 14:58:31 bastion01 sshd[21250]: pam_unix(sshd:session): session opened for user deploy by (uid=0)
+Sep 18 15:02:08 bastion01 sudo:   deploy : TTY=pts/2 ; PWD=/home/deploy ; USER=root ; COMMAND=/usr/bin/docker ps
+Sep 18 15:05:49 bastion01 sudo:   deploy : TTY=pts/0 ; PWD=/home/deploy ; USER=root ; COMMAND=/usr/bin/apt-get update
+Sep 18 15:35:10 bastion01 sshd[21250]: pam_unix(sshd:session): session closed for user deploy
+Sep 18 16:33:29 bastion01 sshd[21107]: Accepted publickey for deploy from 10.20.1.15 port 47870 ssh2: RSA SHA256:ZA1NP1UCKS5NHQAVFL6D633Z
+Sep 18 16:33:29 bastion01 sshd[21107]: pam_unix(sshd:session): session opened for user deploy by (uid=0)
+Sep 18 16:38:45 bastion01 sudo:   deploy : TTY=pts/4 ; PWD=/home/deploy ; USER=root ; COMMAND=/usr/bin/apt-get update
+Sep 18 16:39:38 bastion01 sudo:   deploy : TTY=pts/3 ; PWD=/home/deploy ; USER=root ; COMMAND=/usr/bin/systemctl status order-service
+Sep 18 16:44:20 bastion01 sudo:   deploy : TTY=pts/1 ; PWD=/home/deploy ; USER=root ; COMMAND=/usr/bin/systemctl status order-service
+Sep 18 17:17:04 bastion01 sshd[21107]: pam_unix(sshd:session): session closed for user deploy
+Sep 18 18:45:12 bastion01 sshd[21216]: Accepted publickey for deploy from 10.20.1.15 port 44009 ssh2: RSA SHA256:B6SFXT6LZ1PZC8KKTLQDS1UN
+Sep 18 18:45:12 bastion01 sshd[21216]: pam_unix(sshd:session): session opened for user deploy by (uid=0)
+Sep 18 18:48:37 bastion01 sudo:   deploy : TTY=pts/3 ; PWD=/home/deploy ; USER=root ; COMMAND=/usr/bin/journalctl -u payment-service --since today
+Sep 18 18:54:36 bastion01 sudo:   deploy : TTY=pts/4 ; PWD=/home/deploy ; USER=root ; COMMAND=/usr/bin/docker ps
+Sep 18 19:00:53 bastion01 sudo:   deploy : TTY=pts/3 ; PWD=/home/deploy ; USER=root ; COMMAND=/usr/bin/journalctl -u payment-service --since today
+Sep 18 19:35:16 bastion01 sshd[21216]: pam_unix(sshd:session): session closed for user deploy
+Sep 18 19:56:02 bastion01 sshd[21219]: Accepted publickey for rahul from 10.20.1.44 port 55065 ssh2: RSA SHA256:Z4HKCVC3REXYZ62A7K1EYBZH
+Sep 18 19:56:02 bastion01 sshd[21219]: pam_unix(sshd:session): session opened for user rahul by (uid=0)
+Sep 18 19:59:59 bastion01 sudo:   rahul : TTY=pts/2 ; PWD=/home/rahul ; USER=root ; COMMAND=/usr/bin/apt-get update
+Sep 18 20:02:54 bastion01 sshd[21219]: pam_unix(sshd:session): session closed for user rahul
+Sep 18 21:09:58 bastion01 sshd[21177]: Accepted publickey for devops from 10.20.1.22 port 46128 ssh2: RSA SHA256:YG24G9H1AWQ0VRF0BC5DYQAB
+Sep 18 21:09:58 bastion01 sshd[21177]: pam_unix(sshd:session): session opened for user devops by (uid=0)
+Sep 18 21:11:28 bastion01 sudo:   devops : TTY=pts/3 ; PWD=/home/devops ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx
+Sep 18 21:26:45 bastion01 sshd[21236]: Accepted publickey for devops from 10.20.1.22 port 55534 ssh2: RSA SHA256:0NL87TY4D2AXHTGX4JQLDZF0
+Sep 18 21:26:45 bastion01 sshd[21236]: pam_unix(sshd:session): session opened for user devops by (uid=0)
+Sep 18 21:45:38 bastion01 sshd[21177]: pam_unix(sshd:session): session closed for user devops
+Sep 18 21:48:45 bastion01 sshd[21236]: pam_unix(sshd:session): session closed for user devops
+Sep 19 04:17:24 bastion01 sshd[21534]: Failed password for root from 223.57.127.59 port 55622 ssh2
+Sep 19 08:40:10 bastion01 sshd[21316]: Accepted publickey for rahul from 10.20.1.44 port 45508 ssh2: RSA SHA256:1E6H5EUGJKUYQZJ5CUHAQGCU
+Sep 19 08:40:10 bastion01 sshd[21316]: pam_unix(sshd:session): session opened for user rahul by (uid=0)
+Sep 19 08:50:39 bastion01 sshd[21347]: Accepted publickey for devops from 10.20.1.22 port 50604 ssh2: RSA SHA256:PK8P6CDJ2QLA7TJM7SRH0SV6
+Sep 19 08:50:39 bastion01 sshd[21347]: pam_unix(sshd:session): session opened for user devops by (uid=0)
+Sep 19 08:51:18 bastion01 sshd[21418]: Accepted publickey for devops from 10.20.1.22 port 60625 ssh2: RSA SHA256:NTURXGZJZ0VXSBJTZ4ZTE9GS
+Sep 19 08:51:18 bastion01 sshd[21418]: pam_unix(sshd:session): session opened for user devops by (uid=0)
+Sep 19 08:54:00 bastion01 sudo:   devops : TTY=pts/3 ; PWD=/home/devops ; USER=root ; COMMAND=/usr/bin/docker ps
+Sep 19 08:56:35 bastion01 sudo:   devops : TTY=pts/1 ; PWD=/home/devops ; USER=root ; COMMAND=/usr/bin/systemctl status order-service
+Sep 19 08:58:42 bastion01 sshd[21316]: pam_unix(sshd:session): session closed for user rahul
+Sep 19 09:05:20 bastion01 sshd[21418]: pam_unix(sshd:session): session closed for user devops
+Sep 19 09:30:43 bastion01 sshd[21347]: pam_unix(sshd:session): session closed for user devops
+Sep 19 10:28:09 bastion01 sshd[21541]: Failed password for root from 122.119.213.46 port 33860 ssh2
+Sep 19 14:15:33 bastion01 sshd[21440]: Failed password for ananya from 10.20.1.31 port 61000 ssh2
+Sep 19 14:15:47 bastion01 sshd[21440]: Accepted publickey for ananya from 10.20.1.31 port 52813 ssh2: RSA SHA256:YUCWTR70PHCSK012928NPE1Y
+Sep 19 14:15:47 bastion01 sshd[21440]: pam_unix(sshd:session): session opened for user ananya by (uid=0)
+Sep 19 14:20:18 bastion01 sshd[21387]: Accepted publickey for devops from 10.20.1.22 port 55504 ssh2: RSA SHA256:6UA2WGW11FFU2F32HQXV2SX9
+Sep 19 14:20:18 bastion01 sshd[21387]: pam_unix(sshd:session): session opened for user devops by (uid=0)
+Sep 19 14:21:02 bastion01 sudo:   ananya : TTY=pts/1 ; PWD=/home/ananya ; USER=root ; COMMAND=/usr/bin/journalctl -u payment-service --since today
+Sep 19 14:23:36 bastion01 sudo:   devops : TTY=pts/2 ; PWD=/home/devops ; USER=root ; COMMAND=/usr/bin/docker ps
+Sep 19 14:25:27 bastion01 sudo:   devops : TTY=pts/3 ; PWD=/home/devops ; USER=root ; COMMAND=/usr/bin/tail -n 200 /var/log/novamart/order_service.log
+Sep 19 14:25:51 bastion01 sudo:   ananya : TTY=pts/3 ; PWD=/home/ananya ; USER=root ; COMMAND=/usr/bin/tail -n 200 /var/log/novamart/order_service.log
+Sep 19 14:31:17 bastion01 sudo:   ananya : TTY=pts/1 ; PWD=/home/ananya ; USER=root ; COMMAND=/usr/bin/apt-get update
+Sep 19 14:35:56 bastion01 sshd[21387]: pam_unix(sshd:session): session closed for user devops
+Sep 19 14:38:55 bastion01 sshd[21520]: Accepted publickey for devops from 10.20.1.22 port 43333 ssh2: RSA SHA256:K8ESM95UMN9M938WCJ5V271U
+Sep 19 14:38:55 bastion01 sshd[21520]: pam_unix(sshd:session): session opened for user devops by (uid=0)
+Sep 19 14:41:56 bastion01 sudo:   devops : TTY=pts/0 ; PWD=/home/devops ; USER=root ; COMMAND=/usr/bin/apt-get update
+Sep 19 14:43:32 bastion01 sshd[21440]: pam_unix(sshd:session): session closed for user ananya
+Sep 19 14:48:24 bastion01 sudo:   devops : TTY=pts/0 ; PWD=/home/devops ; USER=root ; COMMAND=/usr/bin/journalctl -u payment-service --since today
+Sep 19 15:13:21 bastion01 sshd[21508]: Accepted publickey for deploy from 10.20.1.15 port 54514 ssh2: RSA SHA256:8ZX1KMDAJNFWG4P9X9XRQYVX
+Sep 19 15:13:21 bastion01 sshd[21508]: pam_unix(sshd:session): session opened for user deploy by (uid=0)
+Sep 19 15:18:34 bastion01 sudo:   deploy : TTY=pts/2 ; PWD=/home/deploy ; USER=root ; COMMAND=/usr/bin/journalctl -u payment-service --since today
+Sep 19 15:21:04 bastion01 sudo:   deploy : TTY=pts/1 ; PWD=/home/deploy ; USER=root ; COMMAND=/usr/bin/apt-get update
+Sep 19 15:25:25 bastion01 sudo:   deploy : TTY=pts/4 ; PWD=/home/deploy ; USER=root ; COMMAND=/usr/bin/docker ps
+Sep 19 15:27:56 bastion01 sshd[21520]: pam_unix(sshd:session): session closed for user devops
+Sep 19 15:32:31 bastion01 sshd[21508]: pam_unix(sshd:session): session closed for user deploy
+Sep 19 17:40:39 bastion01 sshd[21555]: Failed password for root from 106.68.199.134 port 60592 ssh2
+Sep 19 18:20:17 bastion01 sshd[21548]: Failed password for root from 117.117.137.101 port 51974 ssh2
+Sep 19 18:45:39 bastion01 sshd[21426]: Failed password for rahul from 10.20.1.44 port 52072 ssh2
+Sep 19 18:45:53 bastion01 sshd[21426]: Accepted publickey for rahul from 10.20.1.44 port 53278 ssh2: RSA SHA256:8RT4LUBU8Y5KC0QEKL901BV7
+Sep 19 18:45:53 bastion01 sshd[21426]: pam_unix(sshd:session): session opened for user rahul by (uid=0)
+Sep 19 18:50:59 bastion01 sudo:   rahul : TTY=pts/2 ; PWD=/home/rahul ; USER=root ; COMMAND=/usr/bin/journalctl -u payment-service --since today
+Sep 19 18:56:08 bastion01 sudo:   rahul : TTY=pts/1 ; PWD=/home/rahul ; USER=root ; COMMAND=/usr/bin/systemctl status order-service
+Sep 19 18:57:33 bastion01 sudo:   rahul : TTY=pts/3 ; PWD=/home/rahul ; USER=root ; COMMAND=/usr/bin/journalctl -u payment-service --since today
+Sep 19 19:07:33 bastion01 sshd[21426]: pam_unix(sshd:session): session closed for user rahul
+Sep 19 19:07:49 bastion01 sshd[21476]: Accepted publickey for ananya from 10.20.1.31 port 58278 ssh2: RSA SHA256:LA2FYRBAQ24G0UY8XA96F6K8
+Sep 19 19:07:49 bastion01 sshd[21476]: pam_unix(sshd:session): session opened for user ananya by (uid=0)
+Sep 19 19:13:00 bastion01 sudo:   ananya : TTY=pts/3 ; PWD=/home/ananya ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx
+Sep 19 19:16:34 bastion01 sudo:   ananya : TTY=pts/2 ; PWD=/home/ananya ; USER=root ; COMMAND=/usr/bin/tail -n 200 /var/log/novamart/order_service.log
+Sep 19 19:21:21 bastion01 sudo:   ananya : TTY=pts/2 ; PWD=/home/ananya ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx
+Sep 19 19:30:02 bastion01 sshd[21476]: pam_unix(sshd:session): session closed for user ananya
+Sep 19 20:04:05 bastion01 sshd[21326]: Accepted publickey for rahul from 10.20.1.44 port 60146 ssh2: RSA SHA256:7LTQT2GDPPKKJPLK3S6N5DH0
+Sep 19 20:04:05 bastion01 sshd[21326]: pam_unix(sshd:session): session opened for user rahul by (uid=0)
+Sep 19 20:14:24 bastion01 sshd[21326]: pam_unix(sshd:session): session closed for user rahul
+Sep 19 22:01:46 bastion01 sshd[21562]: Failed password for root from 157.183.155.60 port 45204 ssh2
+Sep 19 22:33:03 bastion01 sshd[21527]: Failed password for root from 122.104.165.237 port 50350 ssh2
+Sep 20 03:34:23 bastion01 sshd[21832]: Failed password for root from 117.8.84.203 port 42231 ssh2
+Sep 20 07:00:10 bastion01 sshd[21818]: Failed password for root from 103.113.65.68 port 35359 ssh2
+Sep 20 09:21:00 bastion01 sshd[21860]: Failed password for root from 117.14.67.152 port 58264 ssh2
+Sep 20 10:05:01 bastion01 sshd[21783]: Failed password for deploy from 10.20.1.15 port 48218 ssh2
+Sep 20 10:05:08 bastion01 sshd[21783]: Accepted publickey for deploy from 10.20.1.15 port 58693 ssh2: RSA SHA256:ZYS2EF39655GB0UF5M0XDPLU
+Sep 20 10:05:08 bastion01 sshd[21783]: pam_unix(sshd:session): session opened for user deploy by (uid=0)
+Sep 20 10:08:03 bastion01 sudo:   deploy : TTY=pts/0 ; PWD=/home/deploy ; USER=root ; COMMAND=/usr/bin/tail -n 200 /var/log/novamart/order_service.log
+Sep 20 10:29:28 bastion01 sshd[21783]: pam_unix(sshd:session): session closed for user deploy
+Sep 20 10:40:40 bastion01 sshd[21825]: Failed password for root from 157.78.38.95 port 43003 ssh2
+Sep 20 11:03:01 bastion01 sshd[21708]: Accepted publickey for ananya from 10.20.1.31 port 40993 ssh2: RSA SHA256:S8GHTCVEUMLCA2HGFBKFMP5E
+Sep 20 11:03:01 bastion01 sshd[21708]: pam_unix(sshd:session): session opened for user ananya by (uid=0)
+Sep 20 11:03:52 bastion01 sshd[21694]: Accepted publickey for deploy from 10.20.1.15 port 43941 ssh2: RSA SHA256:WZSBCPEZ1X21T6GCL4MU2S2U
+Sep 20 11:03:52 bastion01 sshd[21694]: pam_unix(sshd:session): session opened for user deploy by (uid=0)
+Sep 20 11:07:33 bastion01 sudo:   ananya : TTY=pts/0 ; PWD=/home/ananya ; USER=root ; COMMAND=/usr/bin/tail -n 200 /var/log/novamart/order_service.log
+Sep 20 11:08:05 bastion01 sudo:   ananya : TTY=pts/3 ; PWD=/home/ananya ; USER=root ; COMMAND=/usr/bin/journalctl -u payment-service --since today
+Sep 20 11:10:57 bastion01 sudo:   ananya : TTY=pts/3 ; PWD=/home/ananya ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx
+Sep 20 11:34:53 bastion01 sshd[21694]: pam_unix(sshd:session): session closed for user deploy
+Sep 20 11:44:16 bastion01 sshd[21708]: pam_unix(sshd:session): session closed for user ananya
+Sep 20 12:29:46 bastion01 sshd[21598]: Failed password for devops from 10.20.1.22 port 64685 ssh2
+Sep 20 12:29:59 bastion01 sshd[21598]: Accepted publickey for devops from 10.20.1.22 port 45813 ssh2: RSA SHA256:AQ56JH6LJU5YC9TT6TG5UXVH
+Sep 20 12:29:59 bastion01 sshd[21598]: pam_unix(sshd:session): session opened for user devops by (uid=0)
+Sep 20 12:34:59 bastion01 sudo:   devops : TTY=pts/4 ; PWD=/home/devops ; USER=root ; COMMAND=/usr/bin/apt-get update
+Sep 20 12:41:37 bastion01 sudo:   devops : TTY=pts/1 ; PWD=/home/devops ; USER=root ; COMMAND=/usr/bin/systemctl status order-service
+Sep 20 13:14:00 bastion01 sshd[21755]: Accepted publickey for devops from 10.20.1.22 port 45444 ssh2: RSA SHA256:KGAHB0Z67JPQLU1PSVT2X8BL
+Sep 20 13:14:00 bastion01 sshd[21755]: pam_unix(sshd:session): session opened for user devops by (uid=0)
+Sep 20 13:14:57 bastion01 sshd[21598]: pam_unix(sshd:session): session closed for user devops
+Sep 20 13:17:43 bastion01 sudo:   devops : TTY=pts/4 ; PWD=/home/devops ; USER=root ; COMMAND=/usr/bin/systemctl status order-service
+Sep 20 13:18:46 bastion01 sudo:   devops : TTY=pts/2 ; PWD=/home/devops ; USER=root ; COMMAND=/usr/bin/docker ps
+Sep 20 13:58:15 bastion01 sshd[21755]: pam_unix(sshd:session): session closed for user devops
+Sep 20 15:57:48 bastion01 sshd[21846]: Failed password for root from 223.204.231.51 port 47771 ssh2
+Sep 20 16:27:22 bastion01 sshd[21741]: Failed password for deploy from 10.20.1.15 port 50180 ssh2
+Sep 20 16:27:34 bastion01 sshd[21741]: Accepted publickey for deploy from 10.20.1.15 port 55716 ssh2: RSA SHA256:PGXDM3GLKT09N5PRFA18P4ED
+Sep 20 16:27:34 bastion01 sshd[21741]: pam_unix(sshd:session): session opened for user deploy by (uid=0)
+Sep 20 16:31:13 bastion01 sudo:   deploy : TTY=pts/1 ; PWD=/home/deploy ; USER=root ; COMMAND=/usr/bin/apt-get update
+Sep 20 17:06:15 bastion01 sshd[21839]: Failed password for root from 103.153.231.196 port 40756 ssh2
+Sep 20 17:10:33 bastion01 sshd[21741]: pam_unix(sshd:session): session closed for user deploy
+Sep 20 17:31:03 bastion01 sshd[21748]: Accepted publickey for devops from 10.20.1.22 port 43448 ssh2: RSA SHA256:Y42FZ3K1K2ASYCPQQULD1B8B
+Sep 20 17:31:03 bastion01 sshd[21748]: pam_unix(sshd:session): session opened for user devops by (uid=0)
+Sep 20 17:33:26 bastion01 sudo:   devops : TTY=pts/1 ; PWD=/home/devops ; USER=root ; COMMAND=/usr/bin/systemctl status order-service
+Sep 20 17:35:43 bastion01 sudo:   devops : TTY=pts/3 ; PWD=/home/devops ; USER=root ; COMMAND=/usr/bin/systemctl status order-service
+Sep 20 17:41:02 bastion01 sudo:   devops : TTY=pts/1 ; PWD=/home/devops ; USER=root ; COMMAND=/usr/bin/systemctl status order-service
+Sep 20 17:59:42 bastion01 sshd[21748]: pam_unix(sshd:session): session closed for user devops
+Sep 20 19:35:57 bastion01 sshd[21811]: Accepted publickey for ananya from 10.20.1.31 port 59275 ssh2: RSA SHA256:2ZEA6L6DMF73H6Z36V082QYK
+Sep 20 19:35:57 bastion01 sshd[21811]: pam_unix(sshd:session): session opened for user ananya by (uid=0)
+Sep 20 19:40:55 bastion01 sudo:   ananya : TTY=pts/2 ; PWD=/home/ananya ; USER=root ; COMMAND=/usr/bin/journalctl -u payment-service --since today
+Sep 20 19:43:45 bastion01 sshd[21716]: Failed password for devops from 10.20.1.22 port 40688 ssh2
+Sep 20 19:44:00 bastion01 sshd[21716]: Accepted publickey for devops from 10.20.1.22 port 50775 ssh2: RSA SHA256:CMBY7ZPKPV65W532MM95YKNJ
+Sep 20 19:44:00 bastion01 sshd[21716]: pam_unix(sshd:session): session opened for user devops by (uid=0)
+Sep 20 19:48:40 bastion01 sudo:   devops : TTY=pts/4 ; PWD=/home/devops ; USER=root ; COMMAND=/usr/bin/systemctl status order-service
+Sep 20 19:51:55 bastion01 sudo:   devops : TTY=pts/4 ; PWD=/home/devops ; USER=root ; COMMAND=/usr/bin/tail -n 200 /var/log/novamart/order_service.log
+Sep 20 19:59:28 bastion01 sshd[21626]: Accepted publickey for deploy from 10.20.1.15 port 63938 ssh2: RSA SHA256:5KT7DE9QS2HPHA29KVGFXLHT
+Sep 20 19:59:28 bastion01 sshd[21626]: pam_unix(sshd:session): session opened for user deploy by (uid=0)
+Sep 20 20:03:59 bastion01 sudo:   deploy : TTY=pts/0 ; PWD=/home/deploy ; USER=root ; COMMAND=/usr/bin/systemctl status order-service
+Sep 20 20:07:53 bastion01 sshd[21811]: pam_unix(sshd:session): session closed for user ananya
+Sep 20 20:08:52 bastion01 sudo:   deploy : TTY=pts/3 ; PWD=/home/deploy ; USER=root ; COMMAND=/usr/bin/docker ps
+Sep 20 20:13:11 bastion01 sudo:   deploy : TTY=pts/4 ; PWD=/home/deploy ; USER=root ; COMMAND=/usr/bin/apt-get update
+Sep 20 20:23:37 bastion01 sshd[21716]: pam_unix(sshd:session): session closed for user devops
+Sep 20 20:30:06 bastion01 sshd[21626]: pam_unix(sshd:session): session closed for user deploy
+Sep 20 21:12:04 bastion01 sshd[21631]: Accepted publickey for rahul from 10.20.1.44 port 47394 ssh2: RSA SHA256:DX59PH07ZDUFLR8EK32MCTWE
+Sep 20 21:12:04 bastion01 sshd[21631]: pam_unix(sshd:session): session opened for user rahul by (uid=0)
+Sep 20 21:15:53 bastion01 sudo:   rahul : TTY=pts/3 ; PWD=/home/rahul ; USER=root ; COMMAND=/usr/bin/docker ps
+Sep 20 21:24:42 bastion01 sshd[21670]: Accepted publickey for deploy from 10.20.1.15 port 60983 ssh2: RSA SHA256:DP4D8X810A1ZTRJU3LBWL4C1
+Sep 20 21:24:42 bastion01 sshd[21670]: pam_unix(sshd:session): session opened for user deploy by (uid=0)
+Sep 20 21:25:21 bastion01 sudo:   deploy : TTY=pts/3 ; PWD=/home/deploy ; USER=root ; COMMAND=/usr/bin/systemctl status order-service
+Sep 20 21:27:39 bastion01 sshd[21631]: pam_unix(sshd:session): session closed for user rahul
+Sep 20 22:04:40 bastion01 sshd[21670]: pam_unix(sshd:session): session closed for user deploy
+Sep 20 22:34:06 bastion01 sshd[21853]: Failed password for root from 223.239.157.2 port 59659 ssh2
