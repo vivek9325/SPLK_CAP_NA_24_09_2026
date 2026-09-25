@@ -1,0 +1,6 @@
+cidr,zone,owner,trust
+10.20.0.0/24,DMZ - load balancers and web,Platform Team,internal
+10.20.1.0/24,Admin workstations (VPN),IT Operations,internal
+10.20.2.0/24,Data and payment tier,Payments Team,internal
+172.16.0.0/12,Container and lab networks,Lab,internal
+192.168.0.0/16,Office LAN,IT Operations,internal
